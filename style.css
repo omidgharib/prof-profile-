@@ -1,0 +1,28 @@
+/* 
+*
+* MKS AAA EFF DIA EYR HAI -N- / profile css & html design
+*
+*
+* Copyright (c) 2012,m-kafiyan(maedeh.kafiyan@gmail.com),under a MIT License (http://opensource.org/licenses/MIT).
+*
+*
+* https://github.com/m-kafiyan
+* http://maedeh-kafiyan.ir
+*/
+	div.cover{
+		background: url('images/fade-1.png') 0 100% repeat-x,
+		url('images/faq-noise.png') 0 0,
+		url('images/portfolio-hitmo-logo-bg.png') 0 60px no-repeat,
+		url('images/faq-fade.png') 0 100px repeat-x,
+		url('images/faq-top.jpg') 50% 0 repeat;
+
+	}
+	div.container{
+		min-height: 700px;
+		
+	}
+	header.top{
+		background: url('images/top-brd.png');
+		background-repeat: no-repeat;
+		background-position: 49% 100%;
+	}
