@@ -35,5 +35,15 @@
 		list-style-type		: none;
 	}
 	div.topmenu nav.toplinks menu li{
-
+		float				: right;
+		position 			: relative;
+		padding-left		: 25px;
+	}
+	div.topmenu nav.toplinks menu a{
+		color				: #172934;
+		text-transform		: uppercase;
+		display				: block;
+		text-decoration		: none;
+		font-weight			: bold;
+		font-size: 13px;
 	}
