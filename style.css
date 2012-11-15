@@ -10,7 +10,7 @@
 * http://maedeh-kafiyan.ir
 */
 	div.cover{
-		background: url('images/fade-1.png') 0 100% repeat-x,
+		background 			: url('images/fade-1.png') 0 100% repeat-x,
 		url('images/faq-noise.png') 0 0,
 		url('images/portfolio-hitmo-logo-bg.png') 0 60px no-repeat,
 		url('images/faq-fade.png') 0 100px repeat-x,
@@ -18,15 +18,22 @@
 
 	}
 	div.container{
-		min-height: 700px;
+		min-height			: 700px;
 		
 	}
+/* ~~~ <>< ~~ ~ ~~~ ><> ><> ~~ <>< ~~ header ~~~ <>< ~~ ~ ><> ~~ ~ ~ ~ <><*/	
 	header.top{
-		background: url('images/top-brd.png');
-		background-repeat: no-repeat;
-		background-position: 49% 100%;
+		background 			: url('images/top-brd.png');
+		background-repeat	: no-repeat;
+		background-position	: 49% 100%;
 	}
 	div.shariflogo{
-		background-image: url('images/daneshgahe_sharif.png');
-		background-repeat: no-repeat;
+		background-image	: url('images/daneshgahe_sharif.png');
+		background-repeat	: no-repeat;
+	}
+	div.topmenu nav.toplinks menu{
+		list-style-type		: none;
+	}
+	div.topmenu nav.toplinks menu li{
+
 	}
