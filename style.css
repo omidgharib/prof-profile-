@@ -37,7 +37,7 @@
 	div.topmenu nav.toplinks menu li{
 		float				: right;
 		position 			: relative;
-		padding-left		: 25px;
+		padding-left		: 20px;
 		-webkit-transition	: all 300ms;
 		-moz-transition   	: top 200ms;
 		-ms-transition    	: top 200ms;
@@ -45,14 +45,25 @@
 		transition        	: top 200ms;
 	}
 	div.topmenu nav.toplinks menu li a{
-		color				: #172934;
-		text-transform		: uppercase;
-		display				: block;
-		text-decoration		: none;
-		font-weight			: bold;
-		font-size			: 13px;
-		white-space			: nowrap;
-		text-align			: center;
+		color				 : #172934;
+		text-transform		 : uppercase;
+		padding 			 :7px 10px;
+		display				 : block;
+		text-decoration		 : none;
+		font-weight			 : bold;
+		font-size			 : 13px;
+		white-space			 : nowrap;
+		text-align			 : center;
+		border-radius 		 :20px;
+		-webkit-border-radius:20px;
+		-moz-border-radius	 :20px;
+		-o-border-radius	 :20px;
+		-ms-border-radius	 :20px;
+		transition 			 :all 300ms;
+		-webkit-transition	 :all 300ms;	
+		-moz-transition		 :all 300ms;	
+		-o-transition		 :all 300ms;	
+		-ms-transition		 :all 300ms;
 	}
 	nav.toplink li:hover menu{
 		display				: block;
@@ -60,6 +71,6 @@
 	nav li:first-child {
 	margin-left 			: none;
 	}
-	nav li:hover {
-	text-shadow				: 1px 0px 1px #78c8dc;
-}
+	header nav menu li a:hover {
+	background-color		:white;	
+	}
