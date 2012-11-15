@@ -37,7 +37,7 @@
 	div.topmenu nav.toplinks menu li{
 		float				: right;
 		position 			: relative;
-		padding-left		: 20px;
+		padding-left		: 10px;
 	}
 	div.topmenu nav.toplinks menu li a{
 		color				 : #172934;
