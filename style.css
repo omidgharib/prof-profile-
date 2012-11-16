@@ -110,10 +110,19 @@
 	}
 /* ~~ ~ ~ <>< <>< ~~ ~ ~ ><> ~~ indexcontent ~~~ <>< ~ ><> ~~ <>< <>< */
 	section.container{
-		min-height: 700px;
+		min-height			: 700px;
 	}
 
 	section.container div.pagetitle{
-		background: url('images/box-e-c.jpg');
-		background-repeat: no-repeat;
+		background 			: url('images/box-e-c.jpg');
+		background-repeat	: no-repeat;
+	}
+	section.container div.pagetitle p{
+		color 				: #fff;
+		margin-top			: 15px;
+		margin-left			: 25px;
+		font-size			: 17px; 
+	}
+	section.container div.compactbio{
+		margin-top: 40px;
 	}
