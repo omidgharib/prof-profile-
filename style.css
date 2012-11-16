@@ -86,14 +86,14 @@
 			
 	}
 	header nav menu li.home span.triangle{
-		position : absolute;
-		width    : 0;
-		height   : 0;
-		border   : solid transparent;
+		position 			 : absolute;
+		width    			 : 0;
+		height   			 : 0;
+		border   			 : solid transparent;
 	}
 	header nav menu li.home span.triangle.bottom{
-		left     : 12px;
-		top      : 100%;
-		border-width     : 10px 4px 0 9px;
-		border-top-color : #00ACEE;
+		left     			 : 5px;
+		top      			 : 93%;
+		border-width     	 : 6px 9px 0 1px;
+		border-top-color 	 : #fff;
 	}
