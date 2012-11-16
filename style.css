@@ -71,9 +71,15 @@
 		background-color	:white;	
 	}
 	header.top div.topmenu div.lang{
-		background: url('images/sprites-set-2.png');
-		background-repeat: no-repeat;
-		background-position: 10px 45px;
+		background 			: url('images/sprites-set-2.png');
+		background-repeat	: no-repeat;
+		background-position	: 6px 0;
+	}
+	header.top div.topmenu div.lang p{
+		text-align			: center;
+		font-size			: 11px;
+		margin-top			: 6px;
+		margin-left			: 4px;
 	}
 /* ~~ ~ ><> <>< ~ ~~ <>< ~~~ ><> ~~ header index ~~ <>< ~~ ><> ~~~ ~~ ~<><*/	
 	header nav menu li.home{
