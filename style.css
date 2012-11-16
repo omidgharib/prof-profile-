@@ -9,7 +9,7 @@
 * https://github.com/m-kafiyan
 * http://maedeh-kafiyan.ir
 */
-	div.cover{
+	div.hopage{
 		background 			: url('images/fade-1.png') 0 100% repeat-x,
 		url('images/faq-noise.png') 0 0,
 		url('images/portfolio-hitmo-logo-bg.png') 0 60px no-repeat,
@@ -25,7 +25,7 @@
 	header.top{
 		background 			: url('images/top-brd.png');
 		background-repeat	: no-repeat;
-		background-position	: 49% 100%;
+		background-position	: 49% 63%;
 	}
 	div.shariflogo{
 		background-image	: url('images/daneshgahe_sharif.png');
@@ -69,6 +69,11 @@
 	}
 	header nav menu li a:hover {
 		background-color	:white;	
+	}
+	header.top div.topmenu div.lang{
+		background: url('images/sprites-set-2.png');
+		background-repeat: no-repeat;
+		background-position: 10px 45px;
 	}
 /* ~~ ~ ><> <>< ~ ~~ <>< ~~~ ><> ~~ header index ~~ <>< ~~ ><> ~~~ ~~ ~<><*/	
 	header nav menu li.home{
