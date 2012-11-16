@@ -59,6 +59,7 @@
 		-moz-transition		 :all 350ms;	
 		-o-transition		 :all 350ms;	
 		-ms-transition		 :all 350ms;
+
 	}
 	nav.toplink li:hover menu{
 		display				: block;
@@ -69,6 +70,7 @@
 	header nav menu li a:hover {
 		background-color	:white;	
 	}
+/* ~~ ~ ><> <>< ~ ~~ <>< ~~~ ><> ~~ header index ~~ <>< ~~ ><> ~~~ ~~ ~<><*/	
 	header nav menu li.home{
 		background-color	:white;
 		border-radius 		 :20px;
@@ -82,4 +84,16 @@
 		-o-transition		 :all 350ms;	
 		-ms-transition		 :all 350ms;
 			
+	}
+	header nav menu li.home span.triangle{
+		position : absolute;
+		width    : 0;
+		height   : 0;
+		border   : solid transparent;
+	}
+	header nav menu li.home span.triangle.bottom{
+		left     : 12px;
+		top      : 100%;
+		border-width     : 10px 4px 0 9px;
+		border-top-color : #00ACEE;
 	}
