@@ -133,7 +133,7 @@
 		background-repeat	: no-repeat;
 
 	}
-	section.container div.links div.bluebiog{
+	section.container div.links a div.bluebiog{
 		position 			: absolute;
 		height 				: 160px;
 		width 				: 205px;
@@ -150,6 +150,7 @@
 		-o-border-radius	 :3px;
 		-ms-border-radius	 :3px;
 	}
+	
 	div.links a div.bluebiog div.bbox2{
 		height 				: 49px;
 		width 				: 180px;
@@ -161,7 +162,8 @@
 		-moz-border-radius	 :4px;
 		-o-border-radius	 :4px;
 		-ms-border-radius	 :4px;
-		box-shadow			 : 0 0 1px #61462e;	
+		box-shadow			 : 0 0 1px #61462e;
+
 	}
 	div.links a div.bluebiog p.numbers{
 		color 				:#fff;
@@ -175,12 +177,25 @@
 		color 				: #000;
 		margin-top			: 16px;
 		margin-left			: 11px;
+
 	}
 	div.links a div.bbtext{
 		margin-left			: 38px;
 		margin-top			: 20px;
 	}
 	div.links a div.bbtext p{
-		font-size: 12px;
-		color:#657883;
+		font-size			: 12px;
+		color 				:#657883;
+	}
+	 div.links div.bluebiog:hover div.bbox2{
+		height 				: 49px;
+		position 			: relative;
+		margin-left			: 9px;
+		background-color	: #f8f8f8;
+		padding-left		: 22px;
+		transition 			 :all 200ms;
+		-webkit-transition	 :all 200ms;	
+		-moz-transition		 :all 200ms;	
+		-o-transition		 :all 200ms;	
+		-ms-transition		 :all 200ms;
 	}
