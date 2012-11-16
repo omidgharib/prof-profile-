@@ -140,16 +140,26 @@
 		z-index: 2;
 	}
 	div.links div.bluebiog div.bbox1{
-		margin-top			: 36px;
+		margin-top			: 20px;
 		background-color	: #1e61bd;
 		height 				: 49px;
 		width 				: 205px;
+		border-radius 		: 3px;
+		-webkit-border-radius:3px;
+		-moz-border-radius	 :3px;
+		-o-border-radius	 :3px;
+		-ms-border-radius	 :3px;
 	}
 	div.links div.bluebiog div.bbox2{
 		height 				: 49px;
-		width 				: 200px;
+		width 				: 180px;
 		margin-top			: 6px;
 		background-color	: #fff;
-		margin-left			: 30px;
-			
+		margin-left			: 31px;
+		border-radius 		: 4px;
+		-webkit-border-radius:4px;
+		-moz-border-radius	 :4px;
+		-o-border-radius	 :4px;
+		-ms-border-radius	 :4px;
+		box-shadow: 0 0 1px #61462e;	
 	}
