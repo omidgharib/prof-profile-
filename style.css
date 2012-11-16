@@ -103,7 +103,7 @@
 		border   			 : solid transparent;
 	}
 	header nav menu li.home span.triangle.bottom{
-		left     			 : 5px;
+		left     			 : 7px;
 		top      			 : 93%;
 		border-width     	 : 6px 9px 0 1px;
 		border-top-color 	 : #fff;
@@ -124,5 +124,32 @@
 		font-size			: 17px; 
 	}
 	section.container div.compactbio{
-		margin-top: 40px;
+		margin-top			: 40px;
+	}
+	section.container div.links{
+		min-height			: 650px;
+		width 				: 100%;
+		background 			: url('images/box-l-bg - Copy (2).png');
+		background-repeat	: no-repeat;
+
+	}
+	section.container div.links div.bluebiog{
+		position 			: absolute;
+		height 				: 160px;
+		width 				: 205px;
+		z-index: 2;
+	}
+	div.links div.bluebiog div.bbox1{
+		margin-top			: 36px;
+		background-color	: #1e61bd;
+		height 				: 49px;
+		width 				: 205px;
+	}
+	div.links div.bluebiog div.bbox2{
+		height 				: 49px;
+		width 				: 200px;
+		margin-top			: 6px;
+		background-color	: #fff;
+		margin-left			: 30px;
+			
 	}
