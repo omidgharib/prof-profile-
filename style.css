@@ -139,7 +139,7 @@
 		width 				: 205px;
 		z-index: 2;
 	}
-	div.links div.bluebiog div.bbox1{
+	div.links a div.bluebiog div.bbox1{
 		margin-top			: 20px;
 		background-color	: #1e61bd;
 		height 				: 49px;
@@ -150,7 +150,7 @@
 		-o-border-radius	 :3px;
 		-ms-border-radius	 :3px;
 	}
-	div.links div.bluebiog div.bbox2{
+	div.links a div.bluebiog div.bbox2{
 		height 				: 49px;
 		width 				: 180px;
 		margin-top			: 6px;
@@ -163,10 +163,24 @@
 		-ms-border-radius	 :4px;
 		box-shadow			 : 0 0 1px #61462e;	
 	}
-	div.links div.bluebiog p.numbers{
+	div.links a div.bluebiog p.numbers{
 		color 				:#fff;
 		font-weight			: bold;
 		font-size			: 22px;
 		margin-top			: 15px;
 		margin-left			: 10px;
+	}
+	div.links a div.bluebiog div.bbox2 p{
+		font-size			: 13px;
+		color 				: #000;
+		margin-top			: 16px;
+		margin-left			: 11px;
+	}
+	div.links a div.bbtext{
+		margin-left			: 38px;
+		margin-top			: 20px;
+	}
+	div.links a div.bbtext p{
+		font-size: 12px;
+		color:#657883;
 	}
