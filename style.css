@@ -126,76 +126,129 @@
 	section.container div.compactbio{
 		margin-top			: 40px;
 	}
-	section.container div.links{
-		min-height			: 650px;
+	section.container div.hollinks{
+		position 			: relative;
 		width 				: 100%;
+		height 				: 650px;
 		background 			: url('images/box-l-bg - Copy (2).png');
 		background-repeat	: no-repeat;
-
+		margin-top			: 50px;
+		margin-left			: 110px;
 	}
-	section.container div.links a div.bluebiog{
-		position 			: absolute;
-		height 				: 160px;
-		width 				: 205px;
-		z-index: 2;
-	}
-	div.links a div.bluebiog div.bbox1{
-		margin-top			: 20px;
-		background-color	: #1e61bd;
-		height 				: 49px;
-		width 				: 205px;
-		border-radius 		: 3px;
-		-webkit-border-radius:3px;
-		-moz-border-radius	 :3px;
-		-o-border-radius	 :3px;
-		-ms-border-radius	 :3px;
-	}
-	
-	div.links a div.bluebiog div.bbox2{
-		height 				: 49px;
-		width 				: 180px;
-		margin-top			: 6px;
-		background-color	: #fff;
-		margin-left			: 31px;
-		border-radius 		: 4px;
-		-webkit-border-radius:4px;
-		-moz-border-radius	 :4px;
-		-o-border-radius	 :4px;
-		-ms-border-radius	 :4px;
-		box-shadow			 : 0 0 1px #61462e;
-
-	}
-	div.links a div.bluebiog p.numbers{
-		color 				:#fff;
-		font-weight			: bold;
-		font-size			: 22px;
-		margin-top			: 15px;
-		margin-left			: 10px;
-	}
-	div.links a div.bluebiog div.bbox2 p{
-		font-size			: 13px;
-		color 				: #000;
-		margin-top			: 16px;
-		margin-left			: 11px;
-
-	}
-	div.links a div.bbtext{
-		margin-left			: 38px;
-		margin-top			: 20px;
-	}
-	div.links a div.bbtext p{
-		font-size			: 12px;
-		color 				:#657883;
-	}
-	 div.links div.bluebiog:hover div.bbox2{
-		height 				: 49px;
+	section.container div.hollinks ol.lists{
 		position 			: relative;
-		margin-left			: 9px;
-		background-color	: #f8f8f8;
-		padding-left		: 22px;
-		transition 			 :all 200ms;
-		-webkit-transition	 :all 200ms;	
-		-moz-transition		 :all 200ms;	
-		-o-transition		 :all 200ms;	
-		-ms-transition		 :all 200ms;
+		z-index				: 2;
+		list-style 			: none;
 	}
+	section.container div.hollinks ol li{
+		position 			: absolute;
+		width 				: 205px;
+		min-height 			: 160px;
+		counter-increment	: section;
+	}
+
+	li.list1{
+		opacity 			: 1;
+		display 			: block;
+		top 				: 35px;
+	}
+	a:hover{
+		text-decoration		: none;
+	}
+	section.container div.hollinks ol li::before{
+		position 			: absolute;
+		z-index				: 10;
+		left 				: 12px;
+		top  				: 16px;
+		color 				:#fff;
+		content				:counter(section, decimal) " ";
+		font-size			: 16px;
+		font-weight			: bold;
+
+	}
+
+	section.container div.hollinks ol li > div{
+		display 			: block;
+		width 				: 205px;
+		height 				: 49px;
+		background 			: #1e62bf;
+		border-radius 		: 3px;
+
+	}
+	div.hollinks ol li.list1 div div{
+		float				: right;
+		width 				: 158px;
+		height 				: 39px;
+		margin-top 			: 5px;
+		padding-top			: 7px;
+		padding-right		: 10px;
+		padding-bottom		: 3px;
+		border-radius 		: 3px;
+		box-shadow			: 0px 0px 3px #000;
+		right 				:-7px;
+	}
+	ol li.list1 div.item1{
+		position 			: relative;
+	}
+
+	div.hollinks ol li.list1 div div.list1item1{
+		padding-left		: 10px;
+		background-color	: #fff;
+		position: absolute;
+	}
+	ol li.list1 div.item1:hover div.list1item1{
+		padding-left		: 37px;
+		background-color	:#f8f8f8;
+
+	}
+	div.hollinks ol a{
+		display				: block;
+		width 				: 205px;
+		min-height			: 160px;
+	}
+	div.hollinks ol li h4{
+		color 				:#000;
+		font-weight			: normal;
+		font-size			: 14px;
+		text-transform		: capitalize;
+		margin-top			: 9px;
+	}
+	div.hollinks ol li p{
+		color 				:#657883;
+		font-weight			: normal;
+		font-size			: 0.9em;
+		margin-top			: 18px;
+		margin-left			: 22px;
+		line-height			: 1.5;
+	}
+	div.hollinks ol li.list1 span.bullet{
+		background-position : 0 -100px;
+	}
+	div.hollinks ol a span.bullet{
+		z-index				: 20;
+		width 				: 20px;
+		height 				: 19px;
+		position 			: absolute;
+		top 				: 20px;
+		background 			: url('images/sprites-set-2.png');
+		left 				: -20px;
+		opacity				: 0;
+		display 			: none;
+	}
+	div.hollinks ol a:hover span{
+		opacity: 1;
+		left:12px;
+		display: block;
+		overflow: visible;
+		position: absolute;
+		/*transform:translatex(10px);
+		-ms-transform:translatex(10px); /* Internet Explorer */
+		/*-moz-transform:translatex(10px); /* Firefox */
+		/*-webkit-transform:translatex(10px); /* Safari and Chrome */
+		/*-o-transform:translatex(10px); /* Opera */
+		transition:all 200ms;
+		-moz-transition:all 200ms; /* Firefox 4 */
+		-webkit-transition:all 200ms; /* Safari and Chrome */
+		-o-transition:all 200ms; /* Opera */
+	}	
+	
