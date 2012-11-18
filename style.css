@@ -240,10 +240,10 @@
 	div.hollinks ol a:hover span{
 		opacity: 1;
 		display: block;
-		transform:translatex(10px,0px);
-		-ms-transform:translatex(10px,0px); /* Internet Explorer */
-		-moz-transform:translatex(10px,0px); /* Firefox */
-		-webkit-transform:translatex(10px,0px); /* Safari and Chrome */
-		-o-transform:translatex(10px,0px); /* Opera */
+		transform:translate(10px,0px);
+		-ms-transform:translate(10px,0px); /* Internet Explorer */
+		-moz-transform:translate(10px,0px); /* Firefox */
+		-webkit-transform:translate(10px,0px); /* Safari and Chrome */
+		-o-transform:translate(10px,0px); /* Opera */
 	}	
 	
