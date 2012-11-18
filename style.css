@@ -413,5 +413,27 @@
 		-o-transform		:translate(35px,0px); /* Opera */
 	}
 	footer.fp{
-		border-top: solid 1px #ededed;
+		border-top 			: solid 1px #ededed;
 	}
+	footer.fp div.fpage div.fleft p{
+		font-size 			: 11px;
+	}
+	div.fpage div.fright menu{
+		list-style-type 	: none;
+	}
+	div.fpage div.fright menu li{
+		float 				: left;
+		height 				: 37px;
+		background-image	: url('images/social-btns.png');
+	}
+	div.fpage div.fright menu li.fb{
+		width 				: 37px;
+		background-position	: -41px 0px;
+	}
+	div.fpage div.fright menu li.twitter{
+		width 				: 37px;
+		background-position	: 39px 0px;
+	}
+	div.fpage div.fright menu li:hover{
+		background-position-y:-38px;
+	}	
