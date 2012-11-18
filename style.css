@@ -152,6 +152,12 @@
 		display 			: block;
 		top 				: 35px;
 	}
+	li.list2{
+		opacity 			: 1;
+		display 			: block;
+		top 				: 35px;
+		left 				: 380px;
+	}
 	a:hover{
 		text-decoration		: none;
 	}
@@ -201,10 +207,16 @@
 		background-color	:#f8f8f8;
 
 	}
-	div.hollinks ol a{
+	div.hollinks ol a.list1{
 		display				: block;
 		width 				: 205px;
-		min-height			: 80px;
+		min-height			: 91px;
+	}
+	div.hollinks ol a.list2{
+		display				: block;
+		width 				: 205px;
+		min-height			: 91px;
+		left 				: 380px;
 	}
 	div.hollinks ol li h4{
 		color 				:#000;
@@ -238,7 +250,7 @@
         -webkit-transition	:all 500ms; /* Safari and Chrome */
         -o-transition		:all 500ms; /* Opera */
 	}
-	div.hollinks ol a:hover span{
+	div.hollinks ol a div.item1:hover span.bullet{
 		opacity: 1;
 		display: block;
 		transition 			:all 500ms;
