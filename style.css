@@ -140,14 +140,14 @@
 		z-index				: 2;
 		list-style 			: none;
 	}
-	section.container div.hollinks ol li{
+	section.container div.hollinks ol a{
 		position 			: absolute;
 		width 				: 205px;
 		min-height 			: 160px;
 		counter-increment	: section;
 	}
 
-	li.list1{
+	a.alist1{
 		opacity 			: 1;
 		display 			: block;
 		top 				: 35px;
@@ -155,7 +155,7 @@
 	a:hover{
 		text-decoration		: none;
 	}
-	section.container div.hollinks ol li::before{
+	section.container div.hollinks ol a::before{
 		position 			: absolute;
 		z-index				: 10;
 		left 				: 12px;
@@ -167,7 +167,7 @@
 
 	}
 
-	section.container div.hollinks ol li > div{
+	section.container div.hollinks ol a > div{
 		display 			: block;
 		width 				: 205px;
 		height 				: 49px;
@@ -175,7 +175,7 @@
 		border-radius 		: 3px;
 
 	}
-	div.hollinks ol li.list1 div div{
+	div.hollinks ol a.alist1 div div{
 		float				: right;
 		width 				: 158px;
 		height 				: 39px;
