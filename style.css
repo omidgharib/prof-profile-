@@ -145,6 +145,7 @@
 		width 				: 205px;
 		min-height 			: 160px;
 		counter-increment	: section;
+		text-decoration		: none;
 	}
 
 	a.alist1{
@@ -232,18 +233,23 @@
         top                 : 20px;
         background          : url('images/sprites-set-2.png');
         opacity             : 0;
-		transition:all 500ms;
-        -moz-transition:all 500ms; /* Firefox 4 */
-        -webkit-transition:all 500ms; /* Safari and Chrome */
-        -o-transition:all 500ms; /* Opera */
+        left 				:-20px;
+		transition 			:all 400ms;
+        -moz-transition 	:all 400ms; /* Firefox 4 */
+        -webkit-transition	:all 400ms; /* Safari and Chrome */
+        -o-transition		:all 400ms; /* Opera */
 	}
-	div.hollinks ol a:hover span{
-		opacity: 1;
-		display: block;
-		transform:translate(10px,0px);
-		-ms-transform:translate(10px,0px); /* Internet Explorer */
-		-moz-transform:translate(10px,0px); /* Firefox */
-		-webkit-transform:translate(10px,0px); /* Safari and Chrome */
-		-o-transform:translate(10px,0px); /* Opera */
+	div.hollinks ol a:hover span.bullet{
+		opacity				: 1;
+		display 			: block;
+		transform 			:translate(33px,0px);
+		-ms-transform		:translate(33px,0px); /* Internet Explorer */
+		-moz-transform		:translate(33px,0px); /* Firefox */
+		-webkit-transform	:translate(33px,0px); /* Safari and Chrome */
+		-o-transform		:translate(33px,0px); /* Opera */
+		transition 			:all 400ms;
+        -moz-transition 	:all 400ms; /* Firefox 4 */
+        -webkit-transition	:all 400ms; /* Safari and Chrome */
+        -o-transition		:all 400ms; /* Opera */
 	}	
 	
