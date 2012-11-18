@@ -133,7 +133,7 @@
 		background 			: url('images/box-l-bg - Copy (2).png');
 		background-repeat	: no-repeat;
 		margin-top			: 50px;
-		margin-left			: 110px;
+		margin-left			: 170px;
 	}
 	section.container div.hollinks ol.lists{
 		position 			: relative;
@@ -155,8 +155,8 @@
 	li.list2{
 		opacity 			: 1;
 		display 			: block;
-		top 				: 35px;
-		left 				: 380px;
+		top 				: 70px;
+		left 				: 408px;
 	}
 	a:hover{
 		text-decoration		: none;
@@ -173,7 +173,7 @@
 
 	}
 
-	section.container div.hollinks ol li > div{
+	section.container div.hollinks ol li.list1 > div{
 		display 			: block;
 		width 				: 205px;
 		height 				: 49px;
@@ -181,7 +181,26 @@
 		border-radius 		: 3px;
 
 	}
+	section.container div.hollinks ol li.list2 > div{
+		display 			: block;
+		width 				: 205px;
+		height 				: 49px;
+		background 			: #61c1ff;
+		border-radius 		: 3px;
+	}
 	div.hollinks ol li.list1 div div{
+		float				: right;
+		width 				: 158px;
+		height 				: 39px;
+		margin-top 			: 5px;
+		padding-top			: 7px;
+		padding-right		: 10px;
+		padding-bottom		: 3px;
+		border-radius 		: 3px;
+		box-shadow			: 0px 0px 3px #000;
+		right 				:-7px;
+	}
+	div.hollinks ol li.list2 div div{
 		float				: right;
 		width 				: 158px;
 		height 				: 39px;
@@ -196,23 +215,35 @@
 	ol li.list1 div.item1{
 		position 			: relative;
 	}
-
+	ol li.list12 div.item2{
+		position 			: relative;
+	}
 	div.hollinks ol li.list1 div div.list1item1{
 		padding-left		: 10px;
 		background-color	: #fff;
-		position: absolute;
+		position 			: absolute;
+	}
+	div.hollinks ol li.list2 div div.list2item2{
+		padding-left		: 10px;
+		background-color	: #fff;
+		position 			: absolute;
 	}
 	ol li.list1 div.item1:hover div.list1item1{
 		padding-left		: 37px;
 		background-color	:#f8f8f8;
 
 	}
-	div.hollinks ol a.list1{
+	ol li.list2 div.item2:hover div.list2item2{
+		padding-left		: 37px;
+		background-color	:#f8f8f8;
+
+	}
+	div.hollinks ol a.alist1{
 		display				: block;
 		width 				: 205px;
 		min-height			: 91px;
 	}
-	div.hollinks ol a.list2{
+	div.hollinks ol a.alist2{
 		display				: block;
 		width 				: 205px;
 		min-height			: 91px;
@@ -235,6 +266,9 @@
 	}
 	div.hollinks ol li.list1 span.bullet{
 		background-position : 0 -100px;
+	}
+	div.hollinks ol li.list2 span.bullet{
+		background-position : -20px -100px;
 	}
 	div.hollinks ol a span.bullet{
 		z-index				: 20;
@@ -263,4 +297,17 @@
 		-webkit-transform:translate(35px,0px); /* Safari and Chrome */
 		-o-transform:translate(35px,0px); /* Opera */
 	}	
+	div.hollinks ol a div.item2:hover span.bullet{
+		opacity: 1;
+		display: block;
+		transition 			:all 500ms;
+        -moz-transition		:all 500ms; /* Firefox 4 */
+        -webkit-transition	:all 500ms; /* Safari and Chrome */
+        -o-transition		:all 500ms; /* Opera */
+		transform:translate(35px,0px);
+		-ms-transform:translate(35px,0px); /* Internet Explorer */
+		-moz-transform:translate(35px,0px); /* Firefox */
+		-webkit-transform:translate(35px,0px); /* Safari and Chrome */
+		-o-transform:translate(35px,0px); /* Opera */
+	}
 	
