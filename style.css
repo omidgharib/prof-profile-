@@ -150,42 +150,42 @@
 	li.list1{
 		opacity 			: 1;
 		display 			: block;
-		top 				: 35px;
+		top 				: 15px;
 	}
 	li.list2{
 		opacity 			: 1;
 		display 			: block;
-		top 				: 45px;
+		top 				: 65px;
 		left 				: 408px;
 	}
 	li.list3{
 		opacity 			: 1;
 		display 			: block;
-		top 				: 215px;
+		top 				: 232px;
 		right  				: 940px; 
 	}
 	li.list4{
 		opacity 			: 1;
 		display 			: block;
-		top 				: 265px;
+		top 				: 287px;
 		right  				: 595px; 
 	}
 	li.list5{
 		opacity 			: 1;
 		display 			: block;
-		top 				: 322px;
+		top 				: 345px;
 		right  				: 215px; 
 	}
 	li.list6{
 		opacity 			: 1;
 		display 			: block;
-		top 				: 490px;
+		top 				: 510px;
 		right  				: 435px; 
 	}
 	li.list7{
 		opacity 			: 1;
 		display 			: block;
-		top 				: 520px;
+		top 				: 538px;
 		right  				: 840px; 
 	}
 	a:hover{
@@ -449,6 +449,17 @@
 		background 			: url('images/orange.png');
 		left				: 185px;
 		top					: 497px;
+	}
+	div.hollinks li.list1:hover div.blueflch{
+		transform 			:rotate(30deg);
+		-ms-transform		:rotate(30deg); /* IE 9 */
+		-moz-transform		:rotate(30deg); /* Firefox */
+		-webkit-transform	:rotate(30deg); /* Safari and Chrome */
+		-o-transform		:rotate(30deg); /* Opera */
+		transition 			:all 100ms;
+        -moz-transition		:all 100ms; /* Firefox 4 */
+        -webkit-transition	:all 100ms; /* Safari and Chrome */
+        -o-transition		:all 100ms; /* Opera */
 	}
 
 /*~~ ~ ><> ><> ~~ ~ ~~~ <>< ~~ ~~ ~~ footer ~~~~ ~~ ><> ~~ <>< ~~~ ~~ ~~<><*/	
