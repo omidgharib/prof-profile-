@@ -155,37 +155,37 @@
 	li.list2{
 		opacity 			: 1;
 		display 			: block;
-		top 				: 70px;
+		top 				: 45px;
 		left 				: 408px;
 	}
 	li.list3{
 		opacity 			: 1;
 		display 			: block;
-		top 				: 235px;
+		top 				: 215px;
 		right  				: 940px; 
 	}
 	li.list4{
 		opacity 			: 1;
 		display 			: block;
-		top 				: 285px;
+		top 				: 265px;
 		right  				: 595px; 
 	}
 	li.list5{
 		opacity 			: 1;
 		display 			: block;
-		top 				: 345px;
+		top 				: 322px;
 		right  				: 215px; 
 	}
 	li.list6{
 		opacity 			: 1;
 		display 			: block;
-		top 				: 510px;
+		top 				: 490px;
 		right  				: 435px; 
 	}
 	li.list7{
 		opacity 			: 1;
 		display 			: block;
-		top 				: 542px;
+		top 				: 520px;
 		right  				: 840px; 
 	}
 	a:hover{
@@ -412,6 +412,46 @@
 		-webkit-transform	:translate(35px,0px); /* Safari and Chrome */
 		-o-transform		:translate(35px,0px); /* Opera */
 	}
+
+	section.container div.hollinks ol > div{
+		width 				: 15px;
+		height 				: 15px;
+		background-repeat	: no-repeat;
+		background-position : 0px 0px;
+		position 			: absolute; 
+	}
+	section.container div.hollinks div.blueflch{
+		background 			: url('images/blue.png');
+		left				: 331px;
+		top					: 5px;
+	}
+	section.container div.hollinks div.lightblueflch{
+		background 			: url('images/lightblue.png');
+		left				: 235px;
+		top					: 171px;
+	}
+	section.container div.hollinks div.greenflch{
+		background 			: url('images/green.png');
+		left				: 69px;
+		top					: 288px;
+	}
+	section.container div.hollinks div.lightgreenflch{
+		background 			: url('images/lightgreen.png');
+		left				: 527px;
+		top					: 276px;
+	}
+	section.container div.hollinks div.lightorangeflch{
+		background 			: url('images/lightorange.png');
+		left				: 446px;
+		top					: 416px;
+	}
+	section.container div.hollinks div.orangeflch{
+		background 			: url('images/orange.png');
+		left				: 185px;
+		top					: 497px;
+	}
+
+/*~~ ~ ><> ><> ~~ ~ ~~~ <>< ~~ ~~ ~~ footer ~~~~ ~~ ><> ~~ <>< ~~~ ~~ ~~<><*/	
 	footer.fp{
 		border-top 			: solid 1px #ededed;
 	}
