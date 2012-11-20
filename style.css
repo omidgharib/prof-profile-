@@ -497,7 +497,7 @@
 		-webkit-transform	:translate(35px,0px); /* Safari and Chrome */
 		-o-transform		:translate(35px,0px); /* Opera */
 	}
-/* ~~ ><> ~~ <>< <>< ~~ ~~~~ ~~ ~<>< flch ><> ~~~ ~ <>< ~~ ><> ~~ ><>*/	
+/* ~~ ><> ~~ <>< <>< ~~ ~~~~ ~~ ~<>< index flch ><> ~~~ ~ <>< ~~ ><> ~~ ><>*/	
 
 	section.container div.hollinks ol > div{
 		width 				: 15px;
@@ -547,7 +547,16 @@
         /*-webkit-transition	:all 100ms; /* Safari and Chrome */
         /*-o-transition		:all 100ms; /* Opera */
 	/*}
-
+/* ~~ ><> ~~ <>< <>< ~~ ~~~~ ~~ ~<>< index flch ><> ~~~ ~ <>< ~~ ><> ~~ ><>*/	
+	body.biopage section.container div.biocontent{
+		border: red 1px solid;
+	} 
+	body.biopage div.biocontent div.rightpanel{
+		border: blue 1px dotted;
+	}
+	body.biopage div.biocontent div.lbcontent{
+		border: green 1px dashed;
+	}
 /*~~ ~ ><> ><> ~~ ~ ~~~ <>< ~~ ~~ ~~ footer ~~~~ ~~ ><> ~~ <>< ~~~ ~~ ~~<><*/	
 	footer.fp{
 		border-top 			: solid 1px #ededed;
