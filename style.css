@@ -536,17 +536,17 @@
 		left				: 185px;
 		top					: 497px;
 	}
-	div.hollinks li.list1:hover div.blueflch{
+	/*div.hollinks li.list1:hover div.blueflch{
 		transform 			:rotate(30deg);
 		-ms-transform		:rotate(30deg); /* IE 9 */
-		-moz-transform		:rotate(30deg); /* Firefox */
-		-webkit-transform	:rotate(30deg); /* Safari and Chrome */
-		-o-transform		:rotate(30deg); /* Opera */
-		transition 			:all 100ms;
+		/*-moz-transform		:rotate(30deg); /* Firefox */
+		/*-webkit-transform	:rotate(30deg); /* Safari and Chrome */
+		/*-o-transform		:rotate(30deg); /* Opera */
+		/*transition 			:all 100ms;
         -moz-transition		:all 100ms; /* Firefox 4 */
-        -webkit-transition	:all 100ms; /* Safari and Chrome */
-        -o-transition		:all 100ms; /* Opera */
-	}
+        /*-webkit-transition	:all 100ms; /* Safari and Chrome */
+        /*-o-transition		:all 100ms; /* Opera */
+	/*}
 
 /*~~ ~ ><> ><> ~~ ~ ~~~ <>< ~~ ~~ ~~ footer ~~~~ ~~ ><> ~~ <>< ~~~ ~~ ~~<><*/	
 	footer.fp{
