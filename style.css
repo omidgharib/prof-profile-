@@ -209,7 +209,7 @@
 	section.container div.compactbio{
 		margin-top			: 40px;
 	}
-	section.container div.hollinks{
+	body.indexpage section.container div.hollinks{
 		position 			: relative;
 		width 				: 100%;
 		height 				: 740px;
@@ -285,7 +285,7 @@
 		font-weight			: bold;
 
 	}
-
+	
 	section.container div.hollinks ol li.list1 > div{
 		display 			: block;
 		width 				: 205px;
@@ -402,31 +402,66 @@
 		min-height			: 91px;
 		position 			: absolute;
 	}
-	div.hollinks ol a.alist2{
+	body.indexpage div.hollinks ol a.alist2{
 		left 				: 408px;
 		top 				:67px;
 	}
-	div.hollinks ol a.alist3{
+	body.indexpage div.hollinks ol a.alist3{
 		left 				: -200px;
 		top 				:233px;
 
 	}
-	div.hollinks ol a.alist4{
+	body.indexpage div.hollinks ol a.alist4{
 		left 				:159px;
 		top 				:282px;
 	}
-	div.hollinks ol a.alist5{
+	body.indexpage div.hollinks ol a.alist5{
 		right 				:210px;
 		top 				:340px;
 	}
-	div.hollinks ol a.alist6{
+	body.indexpage div.hollinks ol a.alist6{
 		left 				:300px;
 		top 				:510px;
 	}
-	div.hollinks ol a.alist7{
+	body.indexpage div.hollinks ol a.alist7{
 		right 				:920px;
 		top 				:525px;
 	}
+	body.biopage div.hollinks ol a.alist1{
+		left 				: 50px;
+		top 				:-7px;
+	}
+	body.biopage div.hollinks ol a.alist2{
+		left 				:50px;
+		top 				:70px;
+	}
+	body.biopage div.hollinks ol a.alist3{
+		left 				:50px;
+		top 				:133px;
+
+	}
+	body.biopage div.hollinks ol a.alist4{
+		left 				:50px;
+		top 				:196px;
+	}
+	body.biopage div.hollinks ol a.alist5{
+		left 				:50px;
+		top 				:260px;
+	}
+	body.biopage div.hollinks ol a.alist6{
+		left 				:50px;
+		top 				:323px;
+	}
+	body.biopage div.hollinks ol a.alist7{
+		left 				:50px;
+		top 				:387px;
+	}
+	/*body.biopage div.hollinks ol li.list1{
+		background: url('images/summary-box-arrows.png');
+		background-repeat: no-repeat;
+		width: ;
+		height:;
+	}*/
 	div.hollinks ol li h4{
 		color 				:#000;
 		font-weight			: normal;
@@ -547,15 +582,16 @@
         /*-webkit-transition	:all 100ms; /* Safari and Chrome */
         /*-o-transition		:all 100ms; /* Opera */
 	/*}
-/* ~~ ><> ~~ <>< <>< ~~ ~~~~ ~~ ~<>< index flch ><> ~~~ ~ <>< ~~ ><> ~~ ><>*/	
+/* ~~ ><> ~~ <>< <>< ~~ ~~~~ ~~ ~<>< bio ><> ~~~ ~ <>< ~~ ><> ~~ ><>*/	
 	body.biopage section.container div.biocontent{
-		border: red 1px solid;
+		min-height: 800px
 	} 
 	body.biopage div.biocontent div.rightpanel{
-		border: blue 1px dotted;
+		min-height: 800px;
 	}
 	body.biopage div.biocontent div.lbcontent{
 		border: green 1px dashed;
+		min-height: 800px;
 	}
 /*~~ ~ ><> ><> ~~ ~ ~~~ <>< ~~ ~~ ~~ footer ~~~~ ~~ ><> ~~ <>< ~~~ ~~ ~~<><*/	
 	footer.fp{
