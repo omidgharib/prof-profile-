@@ -155,38 +155,38 @@
 	li.list2{
 		opacity 			: 1;
 		display 			: block;
-		top 				: 65px;
-		left 				: 408px;
+		/*top 				: 65px;
+		left 				: 408px;*/
 	}
 	li.list3{
 		opacity 			: 1;
 		display 			: block;
-		top 				: 232px;
-		right  				: 940px; 
+		/*top 				: 232px;
+		right  				: 940px; */
 	}
 	li.list4{
 		opacity 			: 1;
 		display 			: block;
-		top 				: 287px;
-		right  				: 595px; 
+		/*top 				: 287px;
+		right  				: 595px; */
 	}
 	li.list5{
 		opacity 			: 1;
 		display 			: block;
-		top 				: 345px;
-		right  				: 215px; 
+		/*top 				: 345px;
+		right  				: 215px;*/ 
 	}
 	li.list6{
 		opacity 			: 1;
 		display 			: block;
-		top 				: 510px;
-		right  				: 435px; 
+		/*top 				: 510px;
+		right  				: 435px;*/ 
 	}
 	li.list7{
 		opacity 			: 1;
 		display 			: block;
-		top 				: 538px;
-		right  				: 840px; 
+		/*top 				: 538px;
+		right  				: 840px; */
 	}
 	a:hover{
 		text-decoration		: none;
@@ -306,41 +306,43 @@
 		padding-left		: 37px;
 		background-color	:#f8f8f8;
 	}
-	div.hollinks ol a.alist1{
+	div.hollinks ol a.alist1,
+	div.hollinks ol a.alist2,
+	div.hollinks ol a.alist3,
+	div.hollinks ol a.alist4,
+	div.hollinks ol a.alist5,
+	div.hollinks ol a.alist6,
+	div.hollinks ol a.alist7
+	{
 		display				: block;
 		width 				: 205px;
 		min-height			: 91px;
+		position 			: absolute;
 	}
 	div.hollinks ol a.alist2{
-		display				: block;
-		width 				: 205px;
-		min-height			: 91px;
-		left 				: 380px;
+		left 				: 408px;
+		top 				:67px;
 	}
 	div.hollinks ol a.alist3{
-		display				: block;
-		width 				: 205px;
-		min-height			: 91px;
+		left 				: -200px;
+		top 				:233px;
+
 	}
 	div.hollinks ol a.alist4{
-		display				: block;
-		width 				: 205px;
-		min-height			: 91px;
+		left 				:159px;
+		top 				:282px;
 	}
 	div.hollinks ol a.alist5{
-		display				: block;
-		width 				: 205px;
-		min-height			: 91px;
+		right 				:210px;
+		top 				:340px;
 	}
 	div.hollinks ol a.alist6{
-		display				: block;
-		width 				: 205px;
-		min-height			: 91px;
+		left 				:300px;
+		top 				:510px;
 	}
 	div.hollinks ol a.alist7{
-		display				: block;
-		width 				: 205px;
-		min-height			: 91px;
+		right 				:920px;
+		top 				:525px;
 	}
 	div.hollinks ol li h4{
 		color 				:#000;
@@ -412,6 +414,7 @@
 		-webkit-transform	:translate(35px,0px); /* Safari and Chrome */
 		-o-transform		:translate(35px,0px); /* Opera */
 	}
+/* ~~ ><> ~~ <>< <>< ~~ ~~~~ ~~ ~<>< flch ><> ~~~ ~ <>< ~~ ><> ~~ ><>*/	
 
 	section.container div.hollinks ol > div{
 		width 				: 15px;
