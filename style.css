@@ -59,6 +59,7 @@
 		-moz-transition		 :all 350ms;	
 		-o-transition		 :all 350ms;	
 		-ms-transition		 :all 350ms;
+		margin-right		 : 5px;
 
 	}
 	nav.toplink li:hover menu{
@@ -82,7 +83,7 @@
 		margin-left			: 4px;
 	}
 /* ~~ ~ ><> <>< ~ ~~ <>< ~~~ ><> ~~ header index ~~ <>< ~~ ><> ~~~ ~~ ~<><*/	
-	header nav menu li.home{
+	body.indexpage header nav menu li.home{
 		background-color	:white;
 		border-radius 		 :20px;
 		-webkit-border-radius:20px;
@@ -96,18 +97,46 @@
 		-ms-transition		 :all 350ms;
 			
 	}
-	header nav menu li.home span.triangle{
+	body.indexpage header nav menu li.home span.triangle{
 		position 			 : absolute;
 		width    			 : 0;
 		height   			 : 0;
 		border   			 : solid transparent;
 	}
-	header nav menu li.home span.triangle.bottom{
+	body.indexpage  header nav menu li.home span.triangle.bottom{
 		left     			 : 7px;
 		top      			 : 93%;
 		border-width     	 : 6px 9px 0 1px;
 		border-top-color 	 : #fff;
 	}
+/* ~~ ~ ><>~~~ ><> ~~ header of biography page ~~ <>< ~~ ><> ~~~ ~~ ~<><*/
+	body.biopage header nav menu li.bio{
+		background-color	:white;
+		border-radius 		 :20px;
+		-webkit-border-radius:20px;
+		-moz-border-radius	 :20px;
+		-o-border-radius	 :20px;
+		-ms-border-radius	 :20px;
+		transition 			 :all 350ms;
+		-webkit-transition	 :all 350ms;	
+		-moz-transition		 :all 350ms;	
+		-o-transition		 :all 350ms;	
+		-ms-transition		 :all 350ms;
+			
+	}
+	body.biopage header nav menu li.bio span.triangle{
+		position 			 : absolute;
+		width    			 : 0;
+		height   			 : 0;
+		border   			 : solid transparent;
+	}
+	body.biopage  header nav menu li.bio span.triangle.bottom{
+		left     			 : 7px;
+		top      			 : 93%;
+		border-width     	 : 6px 9px 0 1px;
+		border-top-color 	 : #fff;
+	}
+
 /* ~~ ~ ~ <>< <>< ~~ ~ ~ ><> ~~ indexcontent ~~~ <>< ~ ><> ~~ <>< <>< */
 	section.container{
 		min-height			: 740px;
