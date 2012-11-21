@@ -591,10 +591,13 @@
 		-moz-border-radius	 :3px;
 		-o-border-radius	 :3px;
 		-ms-border-radius	 :3px;
-		min-height			 : 800px;
+		min-height			 : 700px;
 		box-shadow			 : 0px 0px 5px 0px rgba(0, 0, 0, 0.28);
 		margin-bottom 		 : 110px;
 
+	}
+	body.biopage div.lcontent section.slideshow{
+		height: 600px;
 	}
 	body.biopage div.lcontent section.slideshow ul.train{
 		position 			 : relative;
@@ -675,6 +678,10 @@
 		width 				 : 40px;
 	}
 
+	body.biopage li div.biotext p{
+		margin-left: 70px;
+		line-height: 2;
+	}
 
 /*~~ ~ ><> ><> ~~ ~ ~~~ <>< ~~ ~~ ~~ footer ~~~~ ~~ ><> ~~ <>< ~~~ ~~ ~~<><*/	
 	footer.fp{
