@@ -661,12 +661,21 @@
 		border-left			 : 2px solid #b5c8c9;
 		padding-left		 : 15px;
 	}
-	body.biopage li div.restext ul.restext2{
+	body.biopage li div.proftext h3.profheader{
+		border-left			 : 2px solid #b5c8c9;
+		padding-left		 : 15px;
+	}
+	body.biopage li div ul.restext2{
 		margin-left			 :95px;   
 		line-height			 :2;
 		list-style-type		 :disc;
 	}
 	body.biopage li div.atttext h3.attheader1{
+		font-weight			 : bold;
+		margin-top			 : 30px;
+		margin-left			 : 30px;
+	}
+	body.biopage li div.proftext h3.profheader1{
 		font-weight			 : bold;
 		margin-top			 : 30px;
 		margin-left			 : 30px;
