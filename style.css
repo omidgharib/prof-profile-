@@ -591,7 +591,7 @@
 		-moz-border-radius	 :3px;
 		-o-border-radius	 :3px;
 		-ms-border-radius	 :3px;
-		min-height			 : 700px;
+		min-height			 : 800px;
 		box-shadow			 : 0px 0px 5px 0px rgba(0, 0, 0, 0.28);
 		margin-bottom 		 : 110px;
 
@@ -605,7 +605,7 @@
 	}
 	body.biopage div.lcontent section.slideshow ul.train > li{
 		width 				 : 670px;
-		height 			 : 750px;
+		height 				 : 750px;
 		margin 				 :5px 0px;
 	}
 	body.biopage div.lcontent li div.topheader{
@@ -677,10 +677,16 @@
 		background-color 	 : #e63100;
 		width 				 : 40px;
 	}
-
 	body.biopage li div.biotext p{
-		margin-left: 70px;
-		line-height: 2;
+		margin-left			: 70px;
+		line-height			: 2;
+	}
+	
+	body.biopage section.slideshow li div.pubtexts p p.jafang{
+		margin-top:30px;
+		margin-left:40px;
+		margin-right:5px;
+		text-indent:30px
 	}
 
 /*~~ ~ ><> ><> ~~ ~ ~~~ <>< ~~ ~~ ~~ footer ~~~~ ~~ ><> ~~ <>< ~~~ ~~ ~~<><*/	
