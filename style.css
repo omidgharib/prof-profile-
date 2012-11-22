@@ -646,8 +646,21 @@
 		font-size			 : 17px;
 	}
 	body.biopage li div.biotext h3{
-		border-left: 2px solid #b5c8c9;
-		padding-left: 15px;
+		border-left			 : 2px solid #b5c8c9;
+		padding-left		 : 15px;
+	}
+	body.biopage li div.pubtext h3.pubheader{
+		border-left			 : 2px solid #b5c8c9;
+		padding-left		 : 15px;
+	}
+	body.biopage li div.atttext h3.attheader{
+		border-left			 : 2px solid #b5c8c9;
+		padding-left		 : 15px;
+	}
+	body.biopage li div.atttext h3.attheader1{
+		font-weight			 : bold;
+		margin-top			 : 30px;
+		margin-left			 : 30px;
 	}
 	body.biopage li div.topheader div.num1{
 		background-color	 : #1e61bd;
@@ -681,13 +694,13 @@
 		margin-left			: 70px;
 		line-height			: 2;
 	}
-	
-	body.biopage section.slideshow li div.pubtexts p p.jafang{
+	/*body.biopage section.slideshow li div.pubtexts p p.jafang{
 		margin-top:30px;
 		margin-left:40px;
 		margin-right:5px;
 		text-indent:30px
-	}
+	}*/
+
 
 /*~~ ~ ><> ><> ~~ ~ ~~~ <>< ~~ ~~ ~~ footer ~~~~ ~~ ><> ~~ <>< ~~~ ~~ ~~<><*/	
 	footer.fp{
