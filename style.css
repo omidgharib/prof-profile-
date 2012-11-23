@@ -14,10 +14,10 @@
 		url('images/faq-noise.png') 0 0,
 		url('images/portfolio-hitmo-logo-bg.png') 0 60px no-repeat,
 		url('images/faq-fade.png') 0 100px repeat-x,
-		url('images/faq-top.jpg') 50% 0 repeat;
+		url('images/faq-top.jpg') 50% 0 no-repeat;
 
 	}
-	div.container{
+	section.container{
 		min-height			: 700px;
 		
 	}
@@ -192,9 +192,6 @@
 		border-top-color 	 : #fff;
 	}
 /* ~~ ~ ~ <>< <>< ~~ ~ ~ ><> ~~ indexcontent ~~~ <>< ~ ><> ~~ <>< <>< */
-	section.container{
-		min-height			: 740px;
-	}
 
 	section.container div.pagetitle{
 		background 			: url('images/box-e-c.jpg');
