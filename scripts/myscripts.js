@@ -71,5 +71,12 @@ $(function(){
 		}
 	});
 
-	
+	lists.mouseout(function(){
+		for(i=0;i<6;i++){
+			flechs.eq(i).animate({
+
+				rotate : '0deg' 
+			})
+		};
+	});
 });
