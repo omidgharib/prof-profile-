@@ -598,7 +598,11 @@
 	}
 	body.biopage div.lcontent section.slideshow ul.train{
 		position 			 : relative;
-		-webkit-transition	 : top 800ms ease-out;
+		-webkit-transition	 : top 900ms ease-in-out;
+		-moz-transition	 : top 900ms ease-in-out;
+		-o-transition	 : top 900ms ease-in-out;
+		-ms-transition	 : top 900ms ease-in-out;
+
 	}
 	body.biopage div.lcontent section.slideshow ul.train > li{
 		width 				 : 670px;
@@ -791,10 +795,10 @@
 	body.biopage div.rightpanel ol.rlists li.rlist4,
 	body.biopage div.rightpanel ol.rlists li.rlist5,
 	body.biopage div.rightpanel ol.rlists li.rlist6,
-	body.biopage div.rightpanel ol.rlists li.rlist{
+	body.biopage div.rightpanel ol.rlists li.rlist7 {
 		opacity 			: 1;
-		display 			: block;
-		
+		display 			: block; 
+		cursor : pointer;
 	}
 	body.biopage div.rightpanel ol.rlists li::before{
 		position 			: absolute;
