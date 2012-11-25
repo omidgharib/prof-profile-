@@ -1,0 +1,918 @@
+/* 
+*
+* MKS AAA EFF DIA EYR HAI -N- / profile css & html design
+*
+*
+* Copyright (c) 2012,m-kafiyan(maedeh.kafiyan@gmail.com),under a MIT License (http://opensource.org/licenses/MIT).
+*
+*
+* https://github.com/m-kafiyan
+* http://maedeh-kafiyan.ir
+*/
+	div.hopage{
+		background 			: url('images/fade-1.png') 0 100% repeat-x,
+		url('images/faq-noise.png') 0 0,
+		url('images/portfolio-hitmo-logo-bg.png') 0 60px no-repeat,
+		url('images/faq-fade.png') 0 100px repeat-x,
+		url('images/faq-top.jpg') 50% 0 no-repeat;
+
+	}
+	section.container{
+		min-height			: 700px;
+		
+	}
+/* ~~~ <>< ~~ ~ ~~~ ><> ><> ~~ <>< ~~ header ~~~ <>< ~~ ~ ><> ~~ ~ ~ ~ <><*/	
+	header.top{
+		background 			: url('images/top-brd.png');
+		background-repeat	: no-repeat;
+		background-position	: 49% 63%;
+	}
+	div.shariflogo{
+		background-image	: url('images/daneshgahe_sharif.png');
+		background-repeat	: no-repeat;
+	}
+	div.topmenu nav.toplinks menu{
+		list-style-type		: none;
+	}
+	div.topmenu nav.toplinks menu li{
+		float				: right;
+		position 			: relative;
+		padding-left		: 10px;
+	}
+	div.topmenu nav.toplinks menu li a{
+		color				 : #172934;
+		text-transform		 : uppercase;
+		padding 			 : 5px 7px;
+		display				 : block;
+		text-decoration		 : none;
+		font-weight			 : bold;
+		font-size			 : 13px;
+		white-space			 : nowrap;
+		text-align			 : center;
+		border-radius 		 :20px;
+		-webkit-border-radius:20px;
+		-moz-border-radius	 :20px;
+		-o-border-radius	 :20px;
+		-ms-border-radius	 :20px;
+		transition 			 :all 350ms;
+		-webkit-transition	 :all 350ms;	
+		-moz-transition		 :all 350ms;	
+		-o-transition		 :all 350ms;	
+		-ms-transition		 :all 350ms;
+		margin-right		 : 5px;
+
+	}
+	nav.toplink li:hover menu{
+		display				: block;
+	}
+	nav li:first-child {
+		margin-left 		: none;
+	}
+	header nav menu li a:hover {
+		background-color	:white;	
+	}
+	header.top div.topmenu div.lang{
+		background 			: url('images/sprites-set-2.png');
+		background-repeat	: no-repeat;
+		background-position	: 6px 0;
+	}
+	header.top div.topmenu div.lang p{
+		text-align			: center;
+		font-size			: 11px;
+		margin-top			: 6px;
+		margin-left			: 4px;
+	}
+/* ~~ ~ ><> <>< ~ ~~ <>< ~~~ ><> ~~ header index ~~ <>< ~~ ><> ~~~ ~~ ~<><*/	
+	body.indexpage header nav menu li.home{
+		background-color	:white;
+		border-radius 		 :20px;
+		-webkit-border-radius:20px;
+		-moz-border-radius	 :20px;
+		-o-border-radius	 :20px;
+		-ms-border-radius	 :20px;
+		transition 			 :all 350ms;
+		-webkit-transition	 :all 350ms;	
+		-moz-transition		 :all 350ms;	
+		-o-transition		 :all 350ms;	
+		-ms-transition		 :all 350ms;
+			
+	}
+	body.indexpage header nav menu li.home span.triangle{
+		position 			 : absolute;
+		width    			 : 0;
+		height   			 : 0;
+		border   			 : solid transparent;
+	}
+	body.indexpage  header nav menu li.home span.triangle.bottom{
+		left     			 : 7px;
+		top      			 : 93%;
+		border-width     	 : 6px 9px 0 1px;
+		border-top-color 	 : #fff;
+	}
+/* ~~ ~ ><>~~~ ><> ~~ header of biography page ~~ <>< ~~ ><> ~~~ ~~ ~<><*/
+	body.biopage header nav menu li.bio{
+		background-color	:white;
+		border-radius 		 :20px;
+		-webkit-border-radius:20px;
+		-moz-border-radius	 :20px;
+		-o-border-radius	 :20px;
+		-ms-border-radius	 :20px;
+		transition 			 :all 350ms;
+		-webkit-transition	 :all 350ms;	
+		-moz-transition		 :all 350ms;	
+		-o-transition		 :all 350ms;	
+		-ms-transition		 :all 350ms;
+			
+	}
+	body.biopage header nav menu li.bio span.triangle{
+		position 			 : absolute;
+		width    			 : 0;
+		height   			 : 0;
+		border   			 : solid transparent;
+	}
+	body.biopage  header nav menu li.bio span.triangle.bottom{
+		left     			 : 7px;
+		top      			 : 93%;
+		border-width     	 : 6px 9px 0 1px;
+		border-top-color 	 : #fff;
+	}
+/* ~~ ~ ><>~~~ ><> ~~ header of contact info ~~ <>< ~~ ><> ~~~ ~~ ~<><*/
+	body.contactpage header nav menu li.contact{
+		background-color	:white;
+		border-radius 		 :20px;
+		-webkit-border-radius:20px;
+		-moz-border-radius	 :20px;
+		-o-border-radius	 :20px;
+		-ms-border-radius	 :20px;
+		transition 			 :all 350ms;
+		-webkit-transition	 :all 350ms;	
+		-moz-transition		 :all 350ms;	
+		-o-transition		 :all 350ms;	
+		-ms-transition		 :all 350ms;
+			
+	}
+	body.contactpage header nav menu li.contact span.triangle{
+		position 			 : absolute;
+		width    			 : 0;
+		height   			 : 0;
+		border   			 : solid transparent;
+	}
+	body.contactpage  header nav menu li.contact span.triangle.bottom{
+		left     			 : 7px;
+		top      			 : 93%;
+		border-width     	 : 6px 9px 0 1px;
+		border-top-color 	 : #fff;
+	}	
+	}
+/* ~~ ~ ><>~~~ ><> ~~ header of download cv ~~ <>< ~~ ><> ~~~ ~~ ~<><*/
+	body.download header nav menu li.dl{
+		background-color	:white;
+		border-radius 		 :20px;
+		-webkit-border-radius:20px;
+		-moz-border-radius	 :20px;
+		-o-border-radius	 :20px;
+		-ms-border-radius	 :20px;
+		transition 			 :all 350ms;
+		-webkit-transition	 :all 350ms;	
+		-moz-transition		 :all 350ms;	
+		-o-transition		 :all 350ms;	
+		-ms-transition		 :all 350ms;
+			
+	}
+	body.download header nav menu li.dl span.triangle{
+		position 			 : absolute;
+		width    			 : 0;
+		height   			 : 0;
+		border   			 : solid transparent;
+	}
+	body.download  header nav menu li.dl span.triangle.bottom{
+		left     			 : 7px;
+		top      			 : 93%;
+		border-width     	 : 6px 9px 0 1px;
+		border-top-color 	 : #fff;
+	}
+/* ~~ ~ ~ <>< <>< ~~ ~ ~ ><> ~~ indexcontent ~~~ <>< ~ ><> ~~ <>< <>< */
+
+	section.container div.pagetitle{
+		background 			: url('images/box-e-c.jpg');
+		background-repeat	: no-repeat;
+	}
+	section.container div.pagetitle p{
+		color 				: #fff;
+		margin-top			: 15px;
+		margin-left			: 25px;
+		font-size			: 17px; 
+	}
+	section.container div.compactbio{
+		margin-top			: 40px;
+	}
+	body.indexpage section.container div.hollinks{
+		position 			: relative;
+		width 				: 100%;
+		height 				: 740px;
+		background 			: url('images/box-l-bg - Copy (2).png');
+		background-repeat	: no-repeat;
+		margin-top			: 50px;
+		margin-left			: 200px;
+	}
+	body.indexpage section.container div.hollinks ol.lists{
+		position 			: relative;
+		z-index				: 2;
+		list-style 			: none;
+	}
+	body.indexpage section.container div.hollinks ol li{
+		position 			: absolute;
+		width 				: 205px;
+		min-height 			: 160px;
+		counter-increment	: section;
+	}
+
+	body.indexpage li.list1{
+		opacity 			: 1;
+		display 			: block;
+		top 				: 15px;
+	}
+	body.indexpage li.list2{
+		opacity 			: 1;
+		display 			: block;
+		/*top 				: 65px;
+		left 				: 408px;*/
+	}
+	body.indexpage li.list3{
+		opacity 			: 1;
+		display 			: block;
+		/*top 				: 232px;
+		right  				: 940px; */
+	}
+	body.indexpage li.list4{
+		opacity 			: 1;
+		display 			: block;
+		/*top 				: 287px;
+		right  				: 595px; */
+	}
+	body.indexpage li.list5{
+		opacity 			: 1;
+		display 			: block;
+		/*top 				: 345px;
+		right  				: 215px;*/ 
+	}
+	body.indexpage .list6{
+		opacity 			: 1;
+		display 			: block;
+		/*top 				: 510px;
+		right  				: 435px;*/ 
+	}
+	body.indexpage li.list7{
+		opacity 			: 1;
+		display 			: block;
+		/*top 				: 538px;
+		right  				: 840px; */
+	}
+	a:hover{
+		text-decoration		: none;
+	}
+	body.indexpage section.container div.hollinks ol li::before{
+		position 			: absolute;
+		z-index				: 10;
+		left 				: 12px;
+		top  				: 16px;
+		color 				:#fff;
+		content				:counter(section, decimal) " ";
+		font-size			: 16px;
+		font-weight			: bold;
+
+	}
+	
+	body.indexpage section.container div.hollinks ol li.list1 > div{
+		display 			: block;
+		width 				: 205px;
+		height 				: 49px;
+		background 			: #1e62bf;
+		border-radius 		: 3px;
+
+	}
+	body.indexpage section.container div.hollinks ol li.list2 > div{
+		display 			: block;
+		width 				: 205px;
+		height 				: 49px;
+		background 			: #61c1ff;
+		border-radius 		: 3px;
+	}
+	body.indexpage body.indexpage section.container div.hollinks ol li.list3 > div{
+		display 			: block;
+		width 				: 205px;
+		height 				: 49px;
+		background 			: #0eb916;
+		border-radius 		: 3px;
+	}
+	body.indexpage body.indexpage section.container div.hollinks ol li.list4 > div{
+		display 			: block;
+		width 				: 205px;
+		height 				: 49px;
+		background 			: #a7df11;
+		border-radius 		: 3px;
+	}
+	body.indexpage section.container div.hollinks ol li.list5 > div{
+		display 			: block;
+		width 				: 205px;
+		height 				: 49px;
+		background 			: #e8bf00;
+		border-radius 		: 3px;
+	}
+	body.indexpage section.container div.hollinks ol li.list6 > div{
+		display 			: block;
+		width 				: 205px;
+		height 				: 49px;
+		background 			: #e67c00;
+		border-radius 		: 3px;
+	}
+	body.indexpage body.indexpage section.container div.hollinks ol li.list7 > div{
+		display 			: block;
+		width 				: 205px;
+		height 				: 49px;
+		background 			: #e63100;
+		border-radius 		: 3px;
+	}
+	body.indexpage div.hollinks ol li.list1 div div,
+	body.indexpage div.hollinks ol li.list2 div div,
+	body.indexpage div.hollinks ol li.list3 div div,
+	body.indexpage div.hollinks ol li.list4 div div,
+	body.indexpage div.hollinks ol li.list5 div div,
+	body.indexpage div.hollinks ol li.list6 div div,
+	body.indexpage div.hollinks ol li.list7 div div
+
+	{
+		float				: right;
+		width 				: 158px;
+		height 				: 39px;
+		margin-top 			: 5px;
+		padding-top			: 7px;
+		padding-right		: 10px;
+		padding-bottom		: 3px;
+		border-radius 		: 3px;
+		box-shadow			: 0px 0px 3px #000;
+		right 				:-7px;
+	}
+	body.indexpage ol li.list1 div.item1,
+	body.indexpage ol li.list2 div.item2,
+	body.indexpage ol li.list3 div.item3,
+	body.indexpage ol li.list4 div.item4,
+	body.indexpage ol li.list5 div.item5,
+	body.indexpage ol li.list6 div.item6,
+	body.indexpage ol li.list7 div.item7
+	{
+		position 			: relative;
+	}
+	body.indexpage div.hollinks ol li.list1 div div.list1item1,
+	body.indexpage div.hollinks ol li.list2 div div.list2item2,
+	body.indexpage div.hollinks ol li.list3 div div.list3item3,
+	body.indexpage div.hollinks ol li.list4 div div.list4item4,
+	body.indexpage div.hollinks ol li.list5 div div.list5item5,
+	body.indexpage div.hollinks ol li.list6 div div.list6item6,
+	body.indexpage div.hollinks ol li.list7 div div.list7item7
+	{
+		padding-left		: 10px;
+		background-color	: #fff;
+		position 			: absolute;
+
+	}
+	body.indexpage ol li.list1 div.item1:hover div.list1item1,
+	body.indexpage ol li.list2 div.item2:hover div.list2item2,
+	body.indexpage ol li.list3 div.item3:hover div.list3item3,
+	body.indexpage ol li.list4 div.item4:hover div.list4item4,
+	body.indexpage ol li.list5 div.item5:hover div.list5item5,
+	body.indexpage ol li.list6 div.item6:hover div.list6item6,
+	body.indexpage ol li.list7 div.item7:hover div.list7item7
+	{
+		padding-left		: 37px;
+		background-color	:#f8f8f8;
+	}
+	body.indexpage div.hollinks ol a.alist1,
+	body.indexpage div.hollinks ol a.alist2,
+	body.indexpage div.hollinks ol a.alist3,
+	body.indexpage div.hollinks ol a.alist4,
+	body.indexpage div.hollinks ol a.alist5,
+	body.indexpage div.hollinks ol a.alist6,
+	body.indexpage div.hollinks ol a.alist7
+	{
+		display				: block;
+		width 				: 205px;
+		min-height			: 91px;
+		position 			: absolute;
+	}
+	body.indexpage div.hollinks ol a.alist2{
+		left 				: 408px;
+		top 				:67px;
+	}
+	body.indexpage div.hollinks ol a.alist3{
+		left 				: -200px;
+		top 				:233px;
+
+	}
+	body.indexpage div.hollinks ol a.alist4{
+		left 				:159px;
+		top 				:282px;
+	}
+	body.indexpage div.hollinks ol a.alist5{
+		right 				:210px;
+		top 				:340px;
+	}
+	body.indexpage div.hollinks ol a.alist6{
+		left 				:300px;
+		top 				:510px;
+	}
+	body.indexpage div.hollinks ol a.alist7{
+		right 				:920px;
+		top 				:525px;
+	}
+	/*body.biopage div.hollinks ol a.alist1{
+		left 				: 50px;
+		top 				:-7px;
+	}
+	body.biopage div.hollinks ol a.alist2{
+		left 				:50px;
+		top 				:70px;
+	}
+	body.biopage div.hollinks ol a.alist3{
+		left 				:50px;
+		top 				:133px;
+
+	}
+	body.biopage div.hollinks ol a.alist4{
+		left 				:50px;
+		top 				:196px;
+	}
+	body.biopage div.hollinks ol a.alist5{
+		left 				:50px;
+		top 				:260px;
+	}
+	body.biopage div.hollinks ol a.alist6{
+		left 				:50px;
+		top 				:323px;
+	}
+	body.biopage div.hollinks ol a.alist7{
+		left 				:50px;
+		top 				:387px;
+	}
+	/*body.biopage div.hollinks ol li.list1{
+		background: url('images/summary-box-arrows.png');
+		background-repeat: no-repeat;
+		width: ;
+		height:;
+	}*/
+	body.indexpage body.indexpage div.hollinks ol li h4{
+		color 				:#000;
+		font-weight			: normal;
+		font-size			: 14px;
+		text-transform		: capitalize;
+		margin-top			: 9px;
+	}
+	body.indexpage body.indexpage div.hollinks ol li p{
+		color 				:#657883;
+		font-weight			: normal;
+		font-size			: 0.9em;
+		margin-top			: 18px;
+		margin-left			: 22px;
+		line-height			: 1.5;
+	}
+	body.indexpage div.hollinks ol li.list1 span.bullet{
+		background-position : 0 -100px;
+	}
+	body.indexpage div.hollinks ol li.list2 span.bullet{
+		background-position : -20px -100px;
+	}
+	body.indexpage div.hollinks ol li.list3 span.bullet{
+		background-position : -40px -100px;
+	}
+	body.indexpage div.hollinks ol li.list4 span.bullet{
+		background-position : -60px -100px;
+	}
+	body.indexpage div.hollinks ol li.list5 span.bullet{
+		background-position : -80px -100px;
+	}
+	body.indexpage div.hollinks ol li.list6 span.bullet{
+		background-position : -100px -100px;
+	}
+	body.indexpage div.hollinks ol li.list7 span.bullet{
+		background-position : -120px -100px;
+	}
+	body.indexpage div.hollinks ol a span.bullet{
+		z-index				: 20;
+		width 				: 20px;
+		height 				: 19px;
+		position 			: absolute;
+		top 				: 20px;
+		background 			: url('images/sprites-set-2.png');
+		opacity				: 0;
+		left:-20px;
+		transition 			:all 500ms;
+        -moz-transition		:all 500ms; /* Firefox 4 */
+        -webkit-transition	:all 500ms; /* Safari and Chrome */
+        -o-transition		:all 500ms; /* Opera */
+	}
+	body.indexpage div.hollinks ol a div.item1:hover span.bullet,
+	body.indexpage div.hollinks ol a div.item2:hover span.bullet,
+	body.indexpage div.hollinks ol a div.item3:hover span.bullet,
+	body.indexpage div.hollinks ol a div.item4:hover span.bullet,
+	body.indexpage div.hollinks ol a div.item5:hover span.bullet,
+	body.indexpage div.hollinks ol a div.item6:hover span.bullet,
+	body.indexpage div.hollinks ol a div.item7:hover span.bullet
+	{
+		opacity 			: 1;
+		display 			: block;
+		transition 			:all 500ms;
+        -moz-transition		:all 500ms; /* Firefox 4 */
+        -webkit-transition	:all 500ms; /* Safari and Chrome */
+        -o-transition		:all 500ms; /* Opera */
+		transform 			:translate(35px,0px);
+		-ms-transform		:translate(35px,0px); /* Internet Explorer */
+		-moz-transform		:translate(35px,0px); /* Firefox */
+		-webkit-transform	:translate(35px,0px); /* Safari and Chrome */
+		-o-transform		:translate(35px,0px); /* Opera */
+	}
+/* ~~ ><> ~~ <>< <>< ~~ ~~~~ ~~ ~<>< index flch ><> ~~~ ~ <>< ~~ ><> ~~ ><>*/	
+
+	section.container div.hollinks ol > div{
+		width 				: 15px;
+		height 				: 15px;
+		background-repeat	: no-repeat;
+		background-position : 0px 0px;
+		position 			: absolute; 
+	}
+	section.container div.hollinks div.blueflch{
+		background 			: url('images/blue.png');
+		left				: 331px;
+		top					: 5px;
+	}
+	section.container div.hollinks div.lightblueflch{
+		background 			: url('images/lightblue.png');
+		left				: 235px;
+		top					: 171px;
+	}
+	section.container div.hollinks div.greenflch{
+		background 			: url('images/green.png');
+		left				: 69px;
+		top					: 288px;
+	}
+	section.container div.hollinks div.lightgreenflch{
+		background 			: url('images/lightgreen.png');
+		left				: 527px;
+		top					: 276px;
+	}
+	section.container div.hollinks div.lightorangeflch{
+		background 			: url('images/lightorange.png');
+		left				: 446px;
+		top					: 416px;
+	}
+	section.container div.hollinks div.orangeflch{
+		background 			: url('images/orange.png');
+		left				: 185px;
+		top					: 497px;
+	}
+	/*div.hollinks li.list1:hover div.blueflch{
+		transform 			:rotate(30deg);
+		-ms-transform		:rotate(30deg); /* IE 9 */
+		/*-moz-transform		:rotate(30deg); /* Firefox */
+		/*-webkit-transform	:rotate(30deg); /* Safari and Chrome */
+		/*-o-transform		:rotate(30deg); /* Opera */
+		/*transition 			:all 100ms;
+        -moz-transition		:all 100ms; /* Firefox 4 */
+        /*-webkit-transition	:all 100ms; /* Safari and Chrome */
+        /*-o-transition		:all 100ms; /* Opera */
+	/*}
+/* ~~ ><> ~~ <>< <>< ~~ ~~~~ ~~ ~<>< bio ><> ~~~ ~ <>< ~~ ><> ~~ ><>*/	
+	body.biopage div.biocontent div.lcontent{
+		border 				 : 1px solid #bcc8c9;
+		border-radius 		 : 3px;
+		-webkit-border-radius:3px;
+		-moz-border-radius	 :3px;
+		-o-border-radius	 :3px;
+		-ms-border-radius	 :3px;
+		min-height			 : 800px;
+		box-shadow			 : 0px 0px 5px 0px rgba(0, 0, 0, 0.28);
+		margin-bottom 		 : 110px;
+
+	}
+	body.biopage div.lcontent section.slideshow{
+		height: 600px;
+	}
+	body.biopage div.lcontent section.slideshow ul.train{
+		position 			 : relative;
+		-webkit-transition	 : top 800ms ease-out;
+	}
+	body.biopage div.lcontent section.slideshow ul.train > li{
+		width 				 : 670px;
+		min-height 			 : 650px;
+		margin 				 :5px 0px;
+	}
+	body.biopage div.lcontent li div.topheader{
+		border 				 : 1px solid #bcc8c9;
+		border-radius 		 : 3px;
+		-webkit-border-radius:3px;
+		-moz-border-radius	 :3px;
+		-o-border-radius	 :3px;
+		-ms-border-radius	 :3px;
+		box-shadow			 : 0px 1px 3px 0px rgba(0, 0, 0, 0.2);
+		margin 				 : 1px 3px;
+	}
+	body.biopage li div.topheader div.num1 p,
+	body.biopage li div.topheader div.num2 p,
+	body.biopage li div.topheader div.num3 p,
+	body.biopage li div.topheader div.num4 p,
+	body.biopage li div.topheader div.num5 p,
+	body.biopage li div.topheader div.num6 p,
+	body.biopage li div.topheader div.num7 p
+	{
+		color 				 : #fff;
+		font-size 			 : 20px;
+		font-weight			 : bold;
+		margin 				 : 16px 14px;
+	}
+	body.biopage li  h3.bheader,
+	body.biopage li  h3.pubheader,
+	body.biopage li  h3.attheader,
+	body.biopage li  h3.resheader,
+	body.biopage li  h3.profheader,
+	body.biopage li  h3.canheader,
+	body.biopage li  h3.dlheader
+	{
+		margin-left			 : 50px;
+		text-transform		 : uppercase;
+		margin-top			 : 17px;
+		font-weight			 : bold;
+		font-size			 : 17px;
+	}
+	body.biopage li div.cantext h3.canheader,
+	body.biopage li div.proftext h3.profheader,
+	body.biopage li div.restext h3.resheader,
+	body.biopage li div.atttext h3.attheader,
+	body.biopage li div.pubtext h3.pubheader,
+	body.biopage li div.biotext h3
+	{
+		border-left			 : 2px solid #b5c8c9;
+		padding-left		 : 15px;
+	}
+	body.biopage li div ul.restext2{
+		margin-left			 :95px;   
+		line-height			 :30px;
+		list-style-type		 :disc;
+	}
+	body.biopage li div.atttext h3.attheader1,
+	body.biopage li div.proftext h3.profheader1,
+	body.biopage li div.cantext h3.canheader1,
+	body.biopage li div.dltext h3.dlheader
+	{
+		font-weight			 : bold;
+		margin-top			 : 30px;
+		margin-left			 : 30px;
+	}
+	body.biopage li div.atttext p{
+		margin-top			 :30px;
+		margin-left			 :40px; 
+		margin-right		 :5px; 
+		text-indent			 :30px; 
+		line-height			 :30px;
+	}
+	body.biopage li div.topheader div.num1{
+		background-color	 : #1e61bd;
+		width 				 : 40px;
+	}
+	body.biopage li div.topheader div.num2{
+		background-color	 : #5ebaf6;
+		width 				 : 40px;
+	}
+	body.biopage li div.topheader div.num3{
+		background-color	 : #0eb716;
+		width 				 : 40px;
+	}
+	body.biopage li div.topheader div.num4{
+		background-color	 : #a7df11;
+		width 				 : 40px;
+	}
+	body.biopage li div.topheader div.num5{
+		background-color 	 : #e8bf00;
+		width 				 : 40px;
+	}
+	body.biopage li div.topheader div.num6{
+		background-color	 : #e67c00;
+		width 				 : 40px;
+	}
+	body.biopage li div.topheader div.num7{
+		background-color 	 : #e63100;
+		width 				 : 40px;
+	}
+	body.biopage li div.biotext p{
+		margin-left			: 70px;
+		line-height			: 30px;
+	}
+	/*body.biopage section.slideshow li div.pubtexts p p.jafang{
+		margin-top:30px;
+		margin-left:40px;
+		margin-right:5px;
+		text-indent:30px
+	}*/
+
+
+/*~~ ~ ><> ><> ~~ ~ ~~~ <>< ~~ ~~ ~~ footer ~~~~ ~~ ><> ~~ <>< ~~~ ~~ ~~<><*/	
+	footer.fp{
+		border-top 			: solid 1px #ededed;
+	}
+	footer.fp div.fpage div.fleft p{
+		font-size 			: 11px;
+	}
+	div.fpage div.fright menu{
+		list-style-type 	: none;
+	}
+	div.fpage div.fright menu li{
+		float 				: left;
+		height 				: 37px;
+		background-image	: url('images/social-btns.png');
+	}
+	div.fpage div.fright menu li.fb{
+		width 				: 37px;
+		background-position	: -41px 0px;
+	}
+	div.fpage div.fright menu li.twitter{
+		width 				: 37px;
+		background-position	: 39px 0px;
+	}
+	div.fpage div.fright menu li:hover{
+		background-position-y:-38px;
+	}	
+
+/*--------------------------------biopage----------------------------*/
+	body.biopage div.rightpanel ol.rlists div.ritem1,
+	body.biopage div.rightpanel ol.rlists div.ritem2,
+	body.biopage div.rightpanel ol.rlists div.ritem3,
+	body.biopage div.rightpanel ol.rlists div.ritem4,
+	body.biopage div.rightpanel ol.rlists div.ritem5,
+	body.biopage div.rightpanel ol.rlists div.ritem6,
+	body.biopage div.rightpanel ol.rlists div.ritem7
+	{
+		display 			: block;
+		width 				: 205px;
+		height 				: 49px;
+		border-radius 		: 3px;
+		margin-top			: 10px;
+		position 			: relative;
+	}
+	body.biopage div.rightpanel ol.rlists div.ritem1{
+		background 			: #1e62bf;
+	}
+	body.biopage div.rightpanel ol.rlists div.ritem2{
+		background 			: #61c1ff;
+	}
+	body.biopage div.rightpanel ol.rlists div.ritem3{
+		background 			: #0eb916;
+	}
+	body.biopage div.rightpanel ol.rlists div.ritem4{
+		background 			: #a7df11;
+	}
+	body.biopage div.rightpanel ol.rlists div.ritem5{
+		background 			: #e8bf00;
+	}
+	body.biopage div.rightpanel ol.rlists div.ritem6{
+		background 			: #e67c00;
+	}
+	body.biopage div.rightpanel ol.rlists div.ritem7{
+		background 			: #e63100;
+	}
+	body.biopage div.rightpanel ol.rlists li a{
+		counter-increment	: section;
+		text-decoration: none;
+	} 
+	body.biopage div.rightpanel ol.rlists{
+		z-index: 2;
+		
+	}
+	body.biopage div.rightpanel ol.rlists li.rlist1,
+	body.biopage div.rightpanel ol.rlists li.rlist2,
+	body.biopage div.rightpanel ol.rlists li.rlist3,
+	body.biopage div.rightpanel ol.rlists li.rlist4,
+	body.biopage div.rightpanel ol.rlists li.rlist5,
+	body.biopage div.rightpanel ol.rlists li.rlist6,
+	body.biopage div.rightpanel ol.rlists li.rlist{
+		opacity 			: 1;
+		display 			: block;
+		
+	}
+	body.biopage div.rightpanel ol.rlists li::before{
+		position 			: absolute;
+		z-index				: 10;
+		left 				: 12px;
+		top  				: 16px;
+		color 				:#fff;
+		content				:counter(section, desimal) " ";
+		font-size			: 16px;
+		font-weight			: bold;
+	}
+
+	body.biopage div.rightpanel ol.rlists li.rlist1 div div,
+	body.biopage div.rightpanel ol.rlists li.rlist2 div div,
+	body.biopage div.rightpanel ol.rlists li.rlist3 div div,
+	body.biopage div.rightpanel ol.rlists li.rlist4 div div,
+	body.biopage div.rightpanel ol.rlists li.rlist5 div div,
+	body.biopage div.rightpanel ol.rlists li.rlist6 div div,
+	body.biopage div.rightpanel ol.rlists li.rlist7 div div
+	{
+		float				: right;
+		width 				: 158px;
+		height 				: 39px;
+		margin-top 			: 5px;
+		padding-top			: 7px;
+		padding-right		: 10px;
+		padding-bottom		: 3px;
+		border-radius 		: 3px;
+		box-shadow			: 0px 0px 3px #000;
+		right 				:-7px;
+	}
+	body.biopage div.rightpanel ol.rlists li.rlist1  div.rlist1ltem1,
+	body.biopage div.rightpanel ol.rlists li.rlist2  div.rlist2ltem2,
+	body.biopage div.rightpanel ol.rlists li.rlist3  div.rlist3ltem3,
+	body.biopage div.rightpanel ol.rlists li.rlist4  div.rlist4ltem4,
+	body.biopage div.rightpanel ol.rlists li.rlist5  div.rlist5ltem5,
+	body.biopage div.rightpanel ol.rlists li.rlist6  div.rlist6ltem6,
+	body.biopage div.rightpanel ol.rlists li.rlist7  div.rlist7ltem7
+	{
+		padding-left		: 10px;
+		background-color	: #fff;
+		position 			: absolute;
+
+	}
+	body.biopage div.rightpanel ol.rlists li.rlist1:hover  div.rlist1ltem1,
+	body.biopage div.rightpanel ol.rlists li.rlist2:hover  div.rlist2ltem2,
+	body.biopage div.rightpanel ol.rlists li.rlist3:hover  div.rlist3ltem3,
+	body.biopage div.rightpanel ol.rlists li.rlist4:hover  div.rlist4ltem4,
+	body.biopage div.rightpanel ol.rlists li.rlist5:hover  div.rlist5ltem5,
+	body.biopage div.rightpanel ol.rlists li.rlist6:hover  div.rlist6ltem6,
+	body.biopage div.rightpanel ol.rlists li.rlist7:hover  div.rlist7ltem7
+	{
+		padding-left		: 37px;
+		background-color	:#f8f8f8;
+		transition 			:all 500ms;
+        -moz-transition		:all 500ms; /* Firefox 4 */
+        -webkit-transition	:all 500ms; /* Safari and Chrome */
+        -o-transition		:all 500ms; /* Opera */
+	}
+
+	body.biopage div.rightpanel ol li h4{
+		color 				:#000;
+		font-weight			: normal;
+		font-size			: 14px;
+		text-transform		: capitalize;
+		margin-top			: 9px;
+	}
+	body.biopage div.rightpanel ol li.rlist1 span.bullet{
+		background-position : 0 -100px;
+	}
+	body.biopage div.rightpanel ol li.rlist2 span.bullet{
+		background-position : -20px -100px;
+	}
+	body.biopage div.rightpanel ol li.rlist3 span.bullet{
+		background-position : -40px -100px;
+	}
+	body.biopage div.rightpanel ol li.rlist4 span.bullet{
+		background-position : -60px -100px;
+	}
+	body.biopage div.rightpanel ol li.rlist5 span.bullet{
+		background-position : -80px -100px;
+	}
+	body.biopage div.rightpanel ol li.rlist6 span.bullet{
+		background-position : -100px -100px;
+	}
+	body.biopage div.rightpanel ol li.rlist7 span.bullet{
+		background-position : -120px -100px;
+	}
+	body.biopage div.rightpanel ol li span.bullet{
+		z-index				: 20;
+		width 				: 20px;
+		height 				: 19px;
+		position 			: absolute;
+		top 				: 20px;
+		background 			: url('images/sprites-set-2.png');
+		opacity				: 0;
+		left:-20px;
+		transition 			:all 500ms;
+        -moz-transition		:all 500ms; /* Firefox 4 */
+        -webkit-transition	:all 500ms; /* Safari and Chrome */
+        -o-transition		:all 500ms; /* Opera */
+	}
+	body.biopage div.rightpanel ol a div.ritem1:hover span.bullet,
+	body.biopage div.rightpanel ol a div.ritem2:hover span.bullet,
+	body.biopage div.rightpanel ol a div.ritem3:hover span.bullet,
+	body.biopage div.rightpanel ol a div.ritem4:hover span.bullet,
+	body.biopage div.rightpanel ol a div.ritem5:hover span.bullet,
+	body.biopage div.rightpanel ol a div.ritem7:hover span.bullet
+	{
+		opacity 			: 1;
+		display 			: block;
+		transition 			:all 500ms;
+        -moz-transition		:all 500ms; /* Firefox 4 */
+        -webkit-transition	:all 500ms; /* Safari and Chrome */
+        -o-transition		:all 500ms; /* Opera */
+		transform 			:translate(35px,0px);
+		-ms-transform		:translate(35px,0px); /* Internet Explorer */
+		-moz-transform		:translate(35px,0px); /* Firefox */
+		-webkit-transform	:translate(35px,0px); /* Safari and Chrome */
+		-o-transform		:translate(35px,0px); /* Opera */
+	}
