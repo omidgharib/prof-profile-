@@ -47,7 +47,7 @@ $(function(){
 		}
 		if(index==10) {
 			flechs.eq(3).animate({
-				rotate : "180deg"
+				rotate : "30deg"
 			},250);
 			flechs.eq(4).animate({
 				rotate : "-180deg"
