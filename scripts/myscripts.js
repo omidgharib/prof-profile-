@@ -77,5 +77,16 @@ $(function(){
 		};
 	});
 
-	
+	/////////////////////////////  BIO PAGE /////////////////////////////
+
+	var rightlist      = $('div.rightpanel ol.rlists li'),
+		currentLink    = 0;
+
+	rightlist.click(function(){
+		var that = this;
+		rightlist.eq(currentLink).removeClass('active');
+		$(this).addClass('active');
+		var item = $(that).index();
+		currentLink = item;
+	});
 });
