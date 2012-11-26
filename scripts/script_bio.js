@@ -10,7 +10,7 @@ $(function(){
  		for (var i =0; i < n ; i++ ) {
  			totalheight += contents.eq(i).height();
  		};
- 		train.css('top',-totalheight)
+ 		train.animate({top:-totalheight+'px'},900);
  		currentSlide=n;
 	}
 
@@ -20,11 +20,8 @@ $(function(){
                });
           }
  		for (var i=0; i<li.length; i++) { 
-          
           abas(i); 
       }
 
  	changeslide(0); // set active of first li
-
-
 });
