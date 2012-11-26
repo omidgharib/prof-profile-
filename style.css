@@ -400,6 +400,7 @@
 		min-height			: 91px;
 		position 			: absolute;
 	}
+	
 	body.indexpage div.hollinks ol a.alist2{
 		left 				: 408px;
 		top 				:67px;
@@ -779,7 +780,42 @@
 	body.biopage div.rightpanel ol.rlists li a{
 		counter-increment	: section;
 		text-decoration: none;
-	} 
+		position:relative;
+
+	}
+
+	div.rightpanel ol.rlists li.active a:before{
+		display          : block;
+		content          : '';
+		background-image : url('images/summary-box-arrows.png');
+		background-repeat: no-repeat;
+		width            : 15px;
+		height           : 49px;
+		z-index          : 50;
+		left             : -12px;
+		position         :absolute;
+	}
+	div.rightpanel ol.rlists li.active a.ralist1:before{
+		background-position: 0 0;
+	}
+	div.rightpanel ol.rlists li.active a.ralist2:before{
+		background-position: 0 -49px;
+	}
+	div.rightpanel ol.rlists li.active a.ralist3:before{
+		background-position: 0 -98px;
+	}
+	div.rightpanel ol.rlists li.active a.ralist4:before{
+		background-position: 0 -147px;
+	}
+	div.rightpanel ol.rlists li.active a.ralist5:before{
+		background-position: 0 -196px;
+	}
+	div.rightpanel ol.rlists li.active a.ralist6:before{
+		background-position: 0 -245px;
+	}
+	div.rightpanel ol.rlists li.active a.ralist7:before{
+		background-position: 0 -294px;
+	}
 	body.biopage div.rightpanel ol.rlists{
 		z-index: 2;
 		
