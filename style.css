@@ -937,6 +937,7 @@
 	body.biopage div.rightpanel ol a div.ritem3:hover span.bullet,
 	body.biopage div.rightpanel ol a div.ritem4:hover span.bullet,
 	body.biopage div.rightpanel ol a div.ritem5:hover span.bullet,
+	body.biopage div.rightpanel ol a div.ritem6:hover span.bullet,
 	body.biopage div.rightpanel ol a div.ritem7:hover span.bullet
 	{
 		opacity 			: 1;
