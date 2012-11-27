@@ -386,6 +386,10 @@
 	{
 		padding-left		: 37px;
 		background-color	:#f8f8f8;
+		transition 			:all 100ms;
+        -moz-transition		:all 100ms; /* Firefox 4 */
+        -webkit-transition	:all 100ms; /* Safari and Chrome */
+        -o-transition		:all 100ms; /* Opera */
 	}
 	div.hollinks ol a.alist1,
 	div.hollinks ol a.alist2,
@@ -400,6 +404,7 @@
 		min-height			: 91px;
 		position 			: absolute;
 	}
+	
 	body.indexpage div.hollinks ol a.alist2{
 		left 				: 408px;
 		top 				:67px;
@@ -779,7 +784,53 @@
 	body.biopage div.rightpanel ol.rlists li a{
 		counter-increment	: section;
 		text-decoration: none;
-	} 
+		position:relative;
+
+	}
+	a{
+		cursor:pointer;
+	}
+	 body.biopage div.rightpanel ol.rlists li.active div div {
+		background-color	: #f8f8f8 !important;
+		padding-left		: 37px !important;
+	}
+	body.biopage div.rightpanel ol.rlists li.active span.bullet{
+		opacity 			: 1;
+		display 			: block;
+		left 				: 15px;
+	}
+	div.rightpanel ol.rlists li.active a:before{
+		display          : block;
+		content          : '';
+		background-image : url('images/summary-box-arrows.png');
+		background-repeat: no-repeat;
+		width            : 15px;
+		height           : 49px;
+		z-index          : 50;
+		left             : -12px;
+		position         :absolute;
+	}
+	div.rightpanel ol.rlists li.active a.ralist1:before{
+		background-position: 0 0;
+	}
+	div.rightpanel ol.rlists li.active a.ralist2:before{
+		background-position: 0 -49px;
+	}
+	div.rightpanel ol.rlists li.active a.ralist3:before{
+		background-position: 0 -98px;
+	}
+	div.rightpanel ol.rlists li.active a.ralist4:before{
+		background-position: 0 -147px;
+	}
+	div.rightpanel ol.rlists li.active a.ralist5:before{
+		background-position: 0 -196px;
+	}
+	div.rightpanel ol.rlists li.active a.ralist6:before{
+		background-position: 0 -245px;
+	}
+	div.rightpanel ol.rlists li.active a.ralist7:before{
+		background-position: 0 -294px;
+	}
 	body.biopage div.rightpanel ol.rlists{
 		z-index: 2;
 		
@@ -901,6 +952,7 @@
 	body.biopage div.rightpanel ol a div.ritem3:hover span.bullet,
 	body.biopage div.rightpanel ol a div.ritem4:hover span.bullet,
 	body.biopage div.rightpanel ol a div.ritem5:hover span.bullet,
+	body.biopage div.rightpanel ol a div.ritem6:hover span.bullet,
 	body.biopage div.rightpanel ol a div.ritem7:hover span.bullet
 	{
 		opacity 			: 1;
