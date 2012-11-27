@@ -792,13 +792,9 @@
 	}
 	 body.biopage div.rightpanel ol.rlists li.active div div {
 		background-color	: #f8f8f8 !important;
-		padding-left		: 37px !important;
+
 	}
-	body.biopage div.rightpanel ol.rlists li.active span.bullet{
-		opacity 			: 1;
-		display 			: block;
-		left 				: 15px;
-	}
+
 	div.rightpanel ol.rlists li.active a:before{
 		display          : block;
 		content          : '';
