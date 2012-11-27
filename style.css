@@ -386,6 +386,10 @@
 	{
 		padding-left		: 37px;
 		background-color	:#f8f8f8;
+		transition 			:all 100ms;
+        -moz-transition		:all 100ms; /* Firefox 4 */
+        -webkit-transition	:all 100ms; /* Safari and Chrome */
+        -o-transition		:all 100ms; /* Opera */
 	}
 	div.hollinks ol a.alist1,
 	div.hollinks ol a.alist2,
@@ -783,7 +787,18 @@
 		position:relative;
 
 	}
-
+	a{
+		cursor:pointer;
+	}
+	 body.biopage div.rightpanel ol.rlists li.active div div {
+		background-color	: #f8f8f8 !important;
+		padding-left		: 37px !important;
+	}
+	body.biopage div.rightpanel ol.rlists li.active span.bullet{
+		opacity 			: 1;
+		display 			: block;
+		left 				: 15px;
+	}
 	div.rightpanel ol.rlists li.active a:before{
 		display          : block;
 		content          : '';
