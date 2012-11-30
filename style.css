@@ -137,7 +137,7 @@
 		border-top-color 	 : #fff;
 	}
 /* ~~ ~ ><>~~~ ><> ~~ header of contact info ~~ <>< ~~ ><> ~~~ ~~ ~<><*/
-	body.contactpage header nav menu li.contact{
+	body.contactpag header nav menu li.contact{
 		background-color	:white;
 		border-radius 		 :20px;
 		-webkit-border-radius:20px;
@@ -151,13 +151,13 @@
 		-ms-transition		 :all 350ms;
 			
 	}
-	body.contactpage header nav menu li.contact span.triangle{
+	body.contactpag header nav menu li.contact span.triangle{
 		position 			 : absolute;
 		width    			 : 0;
 		height   			 : 0;
 		border   			 : solid transparent;
 	}
-	body.contactpage  header nav menu li.contact span.triangle.bottom{
+	body.contactpag  header nav menu li.contact span.triangle.bottom{
 		left     			 : 7px;
 		top      			 : 93%;
 		border-width     	 : 6px 9px 0 1px;
@@ -165,7 +165,7 @@
 	}	
 	}
 /* ~~ ~ ><>~~~ ><> ~~ header of download cv ~~ <>< ~~ ><> ~~~ ~~ ~<><*/
-	body.download header nav menu li.dl{
+	body.downloadpag header nav menu li.dl{
 		background-color	:white;
 		border-radius 		 :20px;
 		-webkit-border-radius:20px;
@@ -179,13 +179,13 @@
 		-ms-transition		 :all 350ms;
 			
 	}
-	body.download header nav menu li.dl span.triangle{
+	body.downloadpag header nav menu li.dl span.triangle{
 		position 			 : absolute;
 		width    			 : 0;
 		height   			 : 0;
 		border   			 : solid transparent;
 	}
-	body.download  header nav menu li.dl span.triangle.bottom{
+	body.downloadpag  header nav menu li.dl span.triangle.bottom{
 		left     			 : 7px;
 		top      			 : 93%;
 		border-width     	 : 6px 9px 0 1px;
