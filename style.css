@@ -137,7 +137,7 @@
 		border-top-color 	 : #fff;
 	}
 /* ~~ ~ ><>~~~ ><> ~~ header of contact info ~~ <>< ~~ ><> ~~~ ~~ ~<><*/
-	body.contactpage header nav menu li.contact{
+	body.contactpag header nav menu li.contact{
 		background-color	:white;
 		border-radius 		 :20px;
 		-webkit-border-radius:20px;
@@ -151,13 +151,13 @@
 		-ms-transition		 :all 350ms;
 			
 	}
-	body.contactpage header nav menu li.contact span.triangle{
+	body.contactpag header nav menu li.contact span.triangle{
 		position 			 : absolute;
 		width    			 : 0;
 		height   			 : 0;
 		border   			 : solid transparent;
 	}
-	body.contactpage  header nav menu li.contact span.triangle.bottom{
+	body.contactpag  header nav menu li.contact span.triangle.bottom{
 		left     			 : 7px;
 		top      			 : 93%;
 		border-width     	 : 6px 9px 0 1px;
@@ -165,7 +165,7 @@
 	}	
 	}
 /* ~~ ~ ><>~~~ ><> ~~ header of download cv ~~ <>< ~~ ><> ~~~ ~~ ~<><*/
-	body.download header nav menu li.dl{
+	body.downloadpag header nav menu li.dl{
 		background-color	:white;
 		border-radius 		 :20px;
 		-webkit-border-radius:20px;
@@ -179,13 +179,13 @@
 		-ms-transition		 :all 350ms;
 			
 	}
-	body.download header nav menu li.dl span.triangle{
+	body.downloadpag header nav menu li.dl span.triangle{
 		position 			 : absolute;
 		width    			 : 0;
 		height   			 : 0;
 		border   			 : solid transparent;
 	}
-	body.download  header nav menu li.dl span.triangle.bottom{
+	body.downloadpag  header nav menu li.dl span.triangle.bottom{
 		left     			 : 7px;
 		top      			 : 93%;
 		border-width     	 : 6px 9px 0 1px;
@@ -224,8 +224,9 @@
 		position 			: absolute;
 		width 				: 205px;
 		min-height 			: 160px;
-		counter-increment	: section;
+		
 	}
+	 body{counter-reset:section}
 
 	li.list1{
 		opacity 			: 1;
@@ -277,6 +278,7 @@
 		left 				: 12px;
 		top  				: 16px;
 		color 				:#fff;
+		counter-increment	: section;
 		content				:counter(section, decimal) " ";
 		font-size			: 16px;
 		font-weight			: bold;
@@ -603,7 +605,11 @@
 	}
 	body.biopage div.lcontent section.slideshow ul.train{
 		position 			 : relative;
-		-webkit-transition	 : top 800ms ease-out;
+		-webkit-transition   : top 900ms ease-in-out;
+ 		-moz-transition   : top 900ms ease-in-out;
+		-o-transition   : top 900ms ease-in-out;
+		-ms-transition   : top 900ms ease-in-out;
+
 	}
 	body.biopage div.lcontent section.slideshow ul.train > li{
 		width 				 : 670px;
@@ -782,7 +788,7 @@
 		background 			: #e63100;
 	}
 	body.biopage div.rightpanel ol.rlists li a{
-		counter-increment	: section;
+		
 		text-decoration: none;
 		position:relative;
 
@@ -792,13 +798,9 @@
 	}
 	 body.biopage div.rightpanel ol.rlists li.active div div {
 		background-color	: #f8f8f8 !important;
-		padding-left		: 37px !important;
+
 	}
-	body.biopage div.rightpanel ol.rlists li.active span.bullet{
-		opacity 			: 1;
-		display 			: block;
-		left 				: 15px;
-	}
+
 	div.rightpanel ol.rlists li.active a:before{
 		display          : block;
 		content          : '';
@@ -841,9 +843,10 @@
 	body.biopage div.rightpanel ol.rlists li.rlist4,
 	body.biopage div.rightpanel ol.rlists li.rlist5,
 	body.biopage div.rightpanel ol.rlists li.rlist6,
-	body.biopage div.rightpanel ol.rlists li.rlist{
+	body.biopage div.rightpanel ol.rlists li.rlist7body.biopage div.lcontent section.slideshow ul.train{
 		opacity 			: 1;
 		display 			: block;
+		cursor				: pointer;
 		
 	}
 	body.biopage div.rightpanel ol.rlists li::before{
@@ -852,6 +855,7 @@
 		left 				: 12px;
 		top  				: 16px;
 		color 				:#fff;
+		counter-increment	: section;
 		content				:counter(section, desimal) " ";
 		font-size			: 16px;
 		font-weight			: bold;
