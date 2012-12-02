@@ -3,6 +3,7 @@ $(function(){
 	var train=$('body.biopage div.lcontent section.slideshow ul.train');
 	var contents=$('body.biopage div.lcontent section.slideshow ul.train > li');
  	var currentSlide = 0;
+ 	var url=document.URL;
 
 	changeslide = function (n) {
  		if(n>li.length-1) n=0;
@@ -23,5 +24,12 @@ $(function(){
           abas(i); 
       }
 
- 	changeslide(0); // set active of first li
+      //set active li for start
+	if (url.match('complete%20bio')) { changeslide(0);};
+	if (url.match('publication')) { changeslide(1);};
+	if (url.match('attended')) { changeslide(2);};
+	if (url.match('research')) { changeslide(3);};
+	if (url.match('professional')) { changeslide(4);};
+	if (url.match('contact%20info')) { changeslide(5);};
+	if (url.match('download%20cv')) { changeslide(6);};
 });
